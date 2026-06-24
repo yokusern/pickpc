@@ -1,0 +1,155 @@
+[
+  {
+    "id": "budget-50k",
+    "name": "エントリーゲーミング構成（OS込み¥96,000前後）",
+    "budget": 96000,
+    "budgetLabel": "〜10万円",
+    "target": "軽量ゲームをとりあえず始めたい人",
+    "games": ["Minecraft", "Valorant（低設定）", "LOL"],
+    "parts": [
+      { "category": "CPU", "name": "AMD Ryzen 5 5600", "price": 11800, "reason": "6コア12スレッド。値下がりしており初期投資を抑えたい人向け" },
+      { "category": "GPU", "name": "NVIDIA RTX 4060 8GB", "price": 37800, "reason": "FHD 144fps の現行エントリー標準。RTX 50登場で値下がり中" },
+      { "category": "メモリ", "name": "DDR4 16GB（8GB×2）", "price": 4800, "reason": "16GBあれば今のゲームは余裕。デュアルチャネルで速度UP" },
+      { "category": "SSD", "name": "1TB NVMe SSD", "price": 8500, "reason": "OS+ゲーム数本入れても余裕。NVMeで読込が速い" },
+      { "category": "マザーボード", "name": "B550M", "price": 9000, "reason": "Ryzen 5000対応の必要十分マザボ。DDR4で安く抑える" },
+      { "category": "電源", "name": "650W 80+ Bronze", "price": 6500, "reason": "RTX 4060は115Wで省電力だが余裕を持って650W" },
+      { "category": "ケース", "name": "ミニタワー ATX", "price": 4000, "reason": "安価なケースで構わない" },
+      { "category": "OS", "name": "Windows 11 Home (DSP版)", "price": 13800, "reason": "自作PCにはDSP版が最安。Windowsライセンスは必須" }
+    ],
+    "totalPrice": 96200,
+    "osNote": "OSは必須コスト。DSP版（パーツとセット購入）が最安。",
+    "performances": [
+      { "game": "Minecraft（バニラ）", "setting": "高設定", "fps": "200+ fps" },
+      { "game": "Valorant", "setting": "最高設定", "fps": "250+ fps" },
+      { "game": "League of Legends", "setting": "最高", "fps": "200+ fps" },
+      { "game": "Apex Legends", "setting": "中設定", "fps": "100 fps" }
+    ],
+    "upgrades": [
+      { "what": "GPU を RTX 5060 Ti に", "cost": "+¥52,000", "effect": "QHD 60fps・DLSS 4対応の次世代構成へ" },
+      { "what": "メモリ 32GB に", "cost": "+¥4,800", "effect": "配信・マルチタスクが快適に" }
+    ]
+  },
+  {
+    "id": "mid-100k",
+    "name": "ミドルゲーミング構成（OS込み¥126,000前後）",
+    "budget": 126000,
+    "budgetLabel": "〜13万円",
+    "target": "FPS・オープンワールドを高設定で楽しみたい人",
+    "games": ["Apex Legends 144fps", "Valorant 240fps", "フォートナイト高設定", "原神 60fps"],
+    "parts": [
+      { "category": "CPU", "name": "AMD Ryzen 5 7600", "price": 22800, "reason": "6コア12スレッド。Zen 4世代のゲーミング最適CPU" },
+      { "category": "GPU", "name": "NVIDIA RTX 4060 8GB", "price": 37800, "reason": "FHD 144fpsの現行スタンダード。RTX 50登場で値下がり中" },
+      { "category": "メモリ", "name": "DDR5 32GB（16GB×2）", "price": 13800, "reason": "Ryzen 7000はDDR5が最適。デュアルチャネルで帯域UP" },
+      { "category": "SSD", "name": "1TB NVMe Gen4", "price": 10800, "reason": "ゲーム3〜4本+OSで余裕。高速読込でロードが速い" },
+      { "category": "マザーボード", "name": "B650M", "price": 12800, "reason": "Ryzen 7000対応・必要十分な機能" },
+      { "category": "電源", "name": "650W 80+ Bronze", "price": 7800, "reason": "RTX 4060なら650Wで余裕" },
+      { "category": "ケース", "name": "ミドルタワー", "price": 4500, "reason": "エアフロー確保できれば何でもOK" },
+      { "category": "OS", "name": "Windows 11 Home (DSP版)", "price": 13800, "reason": "自作PCにはDSP版が最安。Windowsライセンスは必須" }
+    ],
+    "totalPrice": 124300,
+    "osNote": "OSは必須コスト。DSP版（パーツとセット購入）が最安。",
+    "performances": [
+      { "game": "Valorant", "setting": "最高設定", "fps": "300+ fps" },
+      { "game": "Apex Legends", "setting": "高設定", "fps": "144 fps" },
+      { "game": "フォートナイト", "setting": "高設定", "fps": "144 fps" },
+      { "game": "原神", "setting": "最高設定", "fps": "60 fps" },
+      { "game": "FF14", "setting": "高設定", "fps": "100 fps" },
+      { "game": "エルデンリング", "setting": "中設定", "fps": "60 fps" }
+    ],
+    "upgrades": [
+      { "what": "RTX 5060 Ti に", "cost": "+¥52,000", "effect": "QHD 144fps・DLSS 4対応で将来も安心" },
+      { "what": "メモリ 64GB に", "cost": "+¥13,800", "effect": "配信同時起動も余裕に" },
+      { "what": "SSD 2TB に", "cost": "+¥10,000", "effect": "ゲームが増えても安心" }
+    ]
+  },
+  {
+    "id": "mid-150k",
+    "name": "快適ゲーム+配信構成（OS込み¥188,000前後）",
+    "budget": 188000,
+    "budgetLabel": "〜19万円",
+    "target": "ゲームしながら配信・録画もしたい人",
+    "games": ["Apex 144fps高設定", "原神 QHD 60fps", "エルデンリング最高設定", "Minecraft大型MOD"],
+    "parts": [
+      { "category": "CPU", "name": "AMD Ryzen 7 7700X", "price": 32800, "reason": "8コア16スレッド。ゲーム+配信の同時処理に最適" },
+      { "category": "GPU", "name": "NVIDIA RTX 4070 12GB", "price": 65000, "reason": "QHD 60fps・FHD 144fps両立。RTX 50登場で値下がり中" },
+      { "category": "メモリ", "name": "DDR5 32GB（16GB×2）", "price": 15800, "reason": "配信しながらゲームするなら32GBが安心" },
+      { "category": "SSD", "name": "1TB NVMe Gen4（システム）", "price": 10800, "reason": "OS+メインゲーム用" },
+      { "category": "SSD", "name": "2TB NVMe（録画・素材）", "price": 16000, "reason": "録画・編集用に大容量SSDを別途確保" },
+      { "category": "マザーボード", "name": "X670E ATX", "price": 19800, "reason": "Ryzen 7000 + PCIe5.0 対応フル機能" },
+      { "category": "電源", "name": "750W 80+ Gold", "price": 10800, "reason": "RTX 4070 + Ryzen 7 なら750W Goldが安心" },
+      { "category": "ケース", "name": "ミドルタワー（エアフロー優秀）", "price": 8500, "reason": "冷却が良いケースで安定稼働" },
+      { "category": "OS", "name": "Windows 11 Home (DSP版)", "price": 13800, "reason": "自作PCにはDSP版が最安。Windowsライセンスは必須" }
+    ],
+    "totalPrice": 193300,
+    "osNote": "OSは必須コスト。DSP版（パーツとセット購入）が最安。",
+    "performances": [
+      { "game": "Valorant", "setting": "最高設定", "fps": "400+ fps" },
+      { "game": "Apex Legends", "setting": "最高設定", "fps": "200+ fps" },
+      { "game": "原神（QHD）", "setting": "最高設定", "fps": "60 fps" },
+      { "game": "エルデンリング（FHD）", "setting": "最高設定", "fps": "60 fps" },
+      { "game": "FF14（QHD）", "setting": "最高設定", "fps": "120 fps" }
+    ],
+    "upgrades": [
+      { "what": "RTX 5070 に", "cost": "+¥45,000", "effect": "4K 60fps 安定・DLSS 4対応の次世代構成へ" }
+    ]
+  },
+  {
+    "id": "high-200k",
+    "name": "4Kゲーム+動画編集構成（OS込み¥355,000前後）",
+    "budget": 355000,
+    "budgetLabel": "〜36万円",
+    "target": "4Kゲームと4K動画編集を両立させたい人",
+    "games": ["サイバーパンク4K", "Forza Horizon4K", "FF16 4K60fps"],
+    "parts": [
+      { "category": "CPU", "name": "Intel Core Ultra 9 285K", "price": 78000, "reason": "2024年最新Arrow Lake世代。24コアで動画エンコードが圧倒的に速い。省電力も改善" },
+      { "category": "GPU", "name": "NVIDIA RTX 5070 Ti 16GB", "price": 139800, "reason": "2025年最新世代。VRAM 16GBで4K編集にも対応。DLSS 4でゲーム性能も最高水準" },
+      { "category": "メモリ", "name": "DDR5 64GB（32GB×2）", "price": 32000, "reason": "4K動画編集には64GBが欲しい" },
+      { "category": "SSD", "name": "2TB NVMe Gen4（システム）", "price": 16000, "reason": "OS+ゲーム+素材を高速SSDに" },
+      { "category": "マザーボード", "name": "Z890 ATX", "price": 28000, "reason": "Core Ultra 200対応の最新世代マザーボード" },
+      { "category": "電源", "name": "1000W 80+ Platinum", "price": 22000, "reason": "RTX 5070 Ti + Core Ultra 9 に余裕の電源" },
+      { "category": "CPUクーラー", "name": "360mm 簡易水冷", "price": 12000, "reason": "Core Ultra 9は発熱が大きいので水冷が必須" },
+      { "category": "ケース", "name": "フルタワー", "price": 12000, "reason": "大型グラボ・水冷ラジエーター搭載に余裕のあるフルタワー" },
+      { "category": "OS", "name": "Windows 11 Home (DSP版)", "price": 13800, "reason": "自作PCにはDSP版が最安。Windowsライセンスは必須" }
+    ],
+    "totalPrice": 353600,
+    "osNote": "OSは必須コスト。DSP版（パーツとセット購入）が最安。",
+    "performances": [
+      { "game": "サイバーパンク2077（4K）", "setting": "最高+DLSS 4品質", "fps": "80+ fps" },
+      { "game": "Apex Legends（4K）", "setting": "最高設定", "fps": "200+ fps" },
+      { "game": "FF16（4K）", "setting": "最高設定", "fps": "60+ fps" }
+    ],
+    "upgrades": [
+      { "what": "RTX 5080 に", "cost": "+¥58,000", "effect": "4K 100fps超えが現実的に。フルパワーを求めるなら" }
+    ]
+  },
+  {
+    "id": "valorant-144fps",
+    "name": "Valorant 144fps 最適化構成（OS込み¥121,000前後）",
+    "budget": 121000,
+    "budgetLabel": "〜12万円",
+    "target": "Valorantで144fps以上を安定させたい人",
+    "games": ["Valorant 240fps+", "Apex Legends 144fps", "CSGO/CS2 240fps+"],
+    "parts": [
+      { "category": "CPU", "name": "AMD Ryzen 5 7600", "price": 22800, "reason": "Valorantはシングルコア性能が重要。Ryzen 5 7600はシングル性能と価格のバランスが取れた選択肢" },
+      { "category": "GPU", "name": "NVIDIA RTX 4060 8GB", "price": 37800, "reason": "FHDなら余裕。Valorantなら300fps超えも可能。RTX 50登場で値下がり中" },
+      { "category": "メモリ", "name": "DDR5 32GB（16GB×2）", "price": 13800, "reason": "Valorantは16GBで十分だが将来性考慮で32GB推奨。デュアルチャネル必須" },
+      { "category": "SSD", "name": "500GB NVMe", "price": 6500, "reason": "Valorant+OS で500GBで十分" },
+      { "category": "マザーボード", "name": "B650M", "price": 12800, "reason": "必要十分。Ryzen 7000対応" },
+      { "category": "電源", "name": "650W Bronze", "price": 7800, "reason": "RTX 4060なら650Wで余裕" },
+      { "category": "ケース", "name": "ミニタワー", "price": 4000, "reason": "コンパクトで十分" },
+      { "category": "OS", "name": "Windows 11 Home (DSP版)", "price": 13800, "reason": "自作PCにはDSP版が最安。Windowsライセンスは必須" }
+    ],
+    "totalPrice": 119500,
+    "osNote": "OSは必須コスト。DSP版（パーツとセット購入）が最安。",
+    "performances": [
+      { "game": "Valorant（FHD）", "setting": "低設定（fps優先）", "fps": "400+ fps" },
+      { "game": "Valorant（FHD）", "setting": "最高設定", "fps": "250+ fps" },
+      { "game": "Apex Legends（FHD）", "setting": "高設定", "fps": "144 fps" },
+      { "game": "CS2（FHD）", "setting": "最高設定", "fps": "300+ fps" }
+    ],
+    "upgrades": [
+      { "what": "モニターを240Hzに", "cost": "+¥20,000", "effect": "400fpsを無駄なく活用できる" },
+      { "what": "RTX 5060 Ti に", "cost": "+¥52,000", "effect": "QHD・DLSS 4対応の次世代へ" }
+    ]
+  }
+]

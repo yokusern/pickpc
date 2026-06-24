@@ -1,0 +1,1504 @@
+[
+  {
+    "id": "nec-lavie-nextreme",
+    "name": "NEC LAVIE NEXTREME",
+    "maker": "nec",
+    "series": "LAVIE NEXTREME",
+    "price": 285780,
+    "cpu": {
+      "model": "Intel Core Ultra 7 258V",
+      "brand": "intel",
+      "generation": "Lunar Lake",
+      "cores": 8,
+      "threads": 8,
+      "tdp": 17
+    },
+    "ram": 32,
+    "storage": {
+      "size": 512,
+      "type": "nvme"
+    },
+    "gpu": {
+      "type": "integrated",
+      "model": "Intel Arc 140V",
+      "vram": 0
+    },
+    "display": {
+      "size": 13.3,
+      "resolution": "1920x1200",
+      "refresh": 60,
+      "panel": "IPS タッチ",
+      "brightness": 400
+    },
+    "weight": 0.994,
+    "battery": 20,
+    "os": "windows",
+    "tags": [
+      "work",
+      "mobile"
+    ],
+    "score": {
+      "overall": 93,
+      "performance": 80,
+      "portability": 99,
+      "display": 82,
+      "keyboard": 85,
+      "value": 65
+    },
+    "description": "994gの超軽量ボディを持つ日本品質のモバイルPC。MIL規格準拠のカーボンボディ採用。NEXTREME Carbon は工具不要のセルフバッテリー交換に対応（Infinity は非対応）。バッテリー「約20時間」はJEITA 3.0測定値（動画再生時）。実動は約14〜16時間が目安。",
+    "pros": [
+      "994gの超軽量で持ち運びが苦にならない",
+      "バッテリーJEITA測定で約20時間・実動でも14〜16時間と業界最長水準",
+      "MIL規格準拠の堅牢カーボンボディ",
+      "Carbon モデルは工具不要のセルフバッテリー交換対応"
+    ],
+    "cons": [
+      "価格が285,780円〜と高い",
+      "ゲーム用途には向かない",
+      "dGPUなしで重い処理は苦手"
+    ],
+    "amazonUrl": "https://www.amazon.co.jp/s?k=NEC+LAVIE+NEXTREME&tag=gearmasterrev-22",
+    "highlight": "994gで20時間駆動。日本品質の軽量モバイル",
+    "popular": true,
+    "featured": true,
+    "new": true,
+    "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/54e72a81.fa5d478e.54e72a82.433426db/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FNEC%2520LAVIE%2520NEXTREME%2F"
+  },
+  {
+    "id": "macbook-pro-m5-16",
+    "name": "MacBook Pro 16インチ (M5 Pro)",
+    "maker": "apple",
+    "series": "MacBook Pro",
+    "price": 394800,
+    "cpu": {
+      "model": "Apple M5 Pro",
+      "brand": "apple",
+      "generation": "M5 Pro",
+      "cores": 18,
+      "threads": 18,
+      "tdp": 30
+    },
+    "ram": 24,
+    "storage": {
+      "size": 1024,
+      "type": "nvme"
+    },
+    "gpu": {
+      "type": "integrated",
+      "model": "Apple M5 Pro GPU 20コア",
+      "vram": 0
+    },
+    "display": {
+      "size": 16.2,
+      "resolution": "3456x2234",
+      "refresh": 120,
+      "panel": "Liquid Retina XDR",
+      "brightness": 1000
+    },
+    "weight": 2.14,
+    "battery": 22,
+    "os": "macos",
+    "tags": [
+      "creator",
+      "work"
+    ],
+    "score": {
+      "overall": 95,
+      "performance": 98,
+      "portability": 70,
+      "display": 98,
+      "keyboard": 85,
+      "value": 55
+    },
+    "description": "M5 Proチップ搭載の16インチプロ向けMacBook Pro。18コアCPU・20コアGPUで4K動画編集・機械学習・Xcodeも圧倒的に快速。ProMotion 120Hz XDRディスプレイは業界最高水準。",
+    "pros": [
+      "M5 Proで動画編集・AI処理が爆速",
+      "120Hz ProMotion XDRディスプレイ搭載",
+      "バッテリー22時間の超長持ち",
+      "HDMIポート・SDカードスロット搭載"
+    ],
+    "cons": [
+      "39万円〜と非常に高価",
+      "2.14kgで持ち運びはやや重い",
+      "Windowsが使えない"
+    ],
+    "amazonUrl": "https://www.amazon.co.jp/s?k=MacBook+Pro+16+M5+Pro+2025&tag=gearmasterrev-22",
+    "highlight": "プロのためのモンスターマシン。M5 Proの圧倒的パワー",
+    "popular": true,
+    "new": true,
+    "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/54e72a81.fa5d478e.54e72a82.433426db/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FMacBook%2520Pro%252016%25E3%2582%25A4%25E3%2583%25B3%25E3%2583%2581%2520%2528M5%2520Pro%2529%2F"
+  },
+  {
+    "id": "macbook-air-m4-13",
+    "name": "MacBook Air 13インチ (M4)",
+    "maker": "apple",
+    "series": "MacBook Air",
+    "price": 164800,
+    "priceMax": 198800,
+    "cpu": {
+      "model": "Apple M4",
+      "brand": "apple",
+      "generation": "M4",
+      "cores": 10,
+      "threads": 10,
+      "tdp": 15
+    },
+    "ram": 16,
+    "storage": {
+      "size": 512,
+      "type": "nvme"
+    },
+    "gpu": {
+      "type": "integrated",
+      "model": "Apple M4 GPU 10コア",
+      "vram": 0
+    },
+    "display": {
+      "size": 13.6,
+      "resolution": "2560x1664",
+      "refresh": 60,
+      "panel": "Liquid Retina",
+      "brightness": 500
+    },
+    "weight": 1.24,
+    "battery": 18,
+    "os": "macos",
+    "tags": [
+      "student",
+      "work",
+      "mobile",
+      "creator"
+    ],
+    "score": {
+      "overall": 88,
+      "performance": 85,
+      "portability": 95,
+      "display": 90,
+      "keyboard": 82,
+      "value": 72
+    },
+    "description": "M4チップ搭載の13インチ軽量MacBook Air。ファンレス設計で無音動作にもかかわらず驚異的な性能とバッテリー持ちを実現。※2025年にM5モデルが登場し、M4は旧モデルになりつつある点に注意。",
+    "pros": [
+      "バッテリーが18時間持つ",
+      "M4チップで前世代比で大幅パワーアップ",
+      "ファンレスで無音動作",
+      "1.24kgの軽量ボディ"
+    ],
+    "cons": [
+      "2025年にM5モデルが登場・新品入手が難しくなりつつある",
+      "ポートがThunderbolt 2つのみ",
+      "メモリ・ストレージ後から変更不可"
+    ],
+    "amazonUrl": "https://www.amazon.co.jp/s?k=MacBook+Air+13+M4+2025&tag=gearmasterrev-22",
+    "highlight": "M4チップ搭載。旧モデルになりつつあるが性能は十分",
+    "popular": true,
+    "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/54e72a81.fa5d478e.54e72a82.433426db/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FMacBook%2520Air%252013%25E3%2582%25A4%25E3%2583%25B3%25E3%2583%2581%2520%2528M4%2529%2F"
+  },
+  {
+    "id": "macbook-air-m5-13",
+    "name": "MacBook Air 13インチ (M5)",
+    "maker": "apple",
+    "series": "MacBook Air",
+    "price": 164800,
+    "priceMax": 198800,
+    "cpu": {
+      "model": "Apple M5",
+      "brand": "apple",
+      "generation": "M5",
+      "cores": 10,
+      "threads": 10,
+      "tdp": 15
+    },
+    "ram": 16,
+    "storage": {
+      "size": 512,
+      "type": "nvme"
+    },
+    "gpu": {
+      "type": "integrated",
+      "model": "Apple M5 GPU 10コア",
+      "vram": 0
+    },
+    "display": {
+      "size": 13.6,
+      "resolution": "2560x1664",
+      "refresh": 60,
+      "panel": "Liquid Retina",
+      "brightness": 500
+    },
+    "weight": 1.24,
+    "battery": 18,
+    "os": "macos",
+    "tags": [
+      "student",
+      "work",
+      "mobile",
+      "creator"
+    ],
+    "score": {
+      "overall": 91,
+      "performance": 89,
+      "portability": 95,
+      "display": 90,
+      "keyboard": 82,
+      "value": 75
+    },
+    "description": "2025年に登場した最新MacBook Air。M5チップはM4比で約20%の性能向上。Apple Intelligence（AI機能）にも対応。ファンレスで無音・1.24kgの軽量・18時間バッテリーはそのままに、処理性能がさらに向上した。",
+    "pros": [
+      "2025年最新チップ・M4比で約20%高速",
+      "Apple Intelligence（生成AI機能）対応",
+      "バッテリー18時間・1.24kgの軽量設計",
+      "ファンレスで無音動作"
+    ],
+    "cons": [
+      "M4との体感差は日常用途では限定的",
+      "ポートがThunderbolt 3つのみ",
+      "メモリ・ストレージ後から変更不可"
+    ],
+    "amazonUrl": "https://www.amazon.co.jp/s?k=MacBook+Air+13+M5+2025&tag=gearmasterrev-22",
+    "highlight": "2025年最新M5チップ搭載。現行モデルの最有力候補",
+    "popular": true,
+    "new": true,
+    "featured": false,
+    "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/54e72a81.fa5d478e.54e72a82.433426db/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FMacBook%2520Air%252013%25E3%2582%25A4%25E3%2583%25B3%25E3%2583%2581%2520%2528M5%2529%2F"
+  },
+  {
+    "id": "macbook-air-m3-13",
+    "name": "MacBook Air 13インチ (M3)",
+    "maker": "apple",
+    "series": "MacBook Air",
+    "price": 115000,
+    "cpu": {
+      "model": "Apple M3",
+      "brand": "apple",
+      "cores": 8
+    },
+    "ram": 8,
+    "storage": {
+      "size": 256,
+      "type": "nvme"
+    },
+    "gpu": {
+      "type": "integrated",
+      "model": "Apple M3 GPU (10コア)"
+    },
+    "display": {
+      "size": 13.6,
+      "resolution": "2560x1664",
+      "refresh": 60,
+      "panel": "Liquid Retina"
+    },
+    "weight": 1.24,
+    "battery": 18,
+    "os": "macos",
+    "tags": [
+      "student",
+      "mobile",
+      "work"
+    ],
+    "score": {
+      "overall": 85,
+      "performance": 82,
+      "portability": 93,
+      "display": 85,
+      "keyboard": 80,
+      "value": 92
+    },
+    "description": "M3チップ搭載の型落ちMacBook Air。日常使いから軽い動画編集まで余裕でこなせる。中古・整備済み品で¥115,000〜から購入可能。M4との体感差は小さく、コスパで選ぶなら最有力候補。",
+    "pros": [
+      "M4との体感差は小さく、中古ならコストを抑えてMacに入れる",
+      "型落ちだがmacOSサポートは2030年頃まで続く見込み"
+    ],
+    "cons": [
+      "8GBモデルは将来的にメモリ不足になる可能性あり",
+      "新品での購入不可（中古・整備済み品のみ）"
+    ],
+    "amazonUrl": "https://www.amazon.co.jp/s?k=MacBook+Air+M3+13+整備済み&tag=gearmasterrev-22",
+    "highlight": "中古¥115,000〜。M4との差は小さくコスパ最強",
+    "badge": "コスパ◎",
+    "isRefurbished": true,
+    "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/54e72a81.fa5d478e.54e72a82.433426db/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FMacBook%2520Air%252013%25E3%2582%25A4%25E3%2583%25B3%25E3%2583%2581%2520%2528M3%2529%2F"
+  },
+  {
+    "id": "macbook-air-m1-13",
+    "name": "MacBook Air 13インチ (M1)",
+    "maker": "apple",
+    "series": "MacBook Air",
+    "price": 60000,
+    "cpu": {
+      "model": "Apple M1",
+      "brand": "apple",
+      "cores": 8
+    },
+    "ram": 8,
+    "storage": {
+      "size": 256,
+      "type": "nvme"
+    },
+    "gpu": {
+      "type": "integrated",
+      "model": "Apple M1 GPU (7コア)"
+    },
+    "display": {
+      "size": 13.3,
+      "resolution": "2560x1600",
+      "refresh": 60,
+      "panel": "Retina"
+    },
+    "weight": 1.29,
+    "battery": 15,
+    "os": "macos",
+    "tags": [
+      "student",
+      "mobile",
+      "beginner"
+    ],
+    "score": {
+      "overall": 78,
+      "performance": 74,
+      "portability": 91,
+      "display": 80,
+      "keyboard": 78,
+      "value": 95
+    },
+    "description": "5万円台から買える最安のApple Silicon Mac。ネット・メール・動画視聴・Office作業なら全く問題なし。メルカリや整備済み品での購入がメイン。",
+    "pros": [
+      "5万円台から買えるMacへの最安入口",
+      "日常使いなら処理速度に不満を感じることはほぼない"
+    ],
+    "cons": [
+      "8GBメモリのみ。重い作業には力不足",
+      "メルカリ購入時はアクティベーションロック解除を必ず確認"
+    ],
+    "amazonUrl": "https://www.amazon.co.jp/s?k=MacBook+Air+M1+中古+整備済み&tag=gearmasterrev-22",
+    "highlight": "中古¥60,000〜。Macを一番安く試せる入門機",
+    "badge": "予算重視",
+    "isRefurbished": true,
+    "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/54e72a81.fa5d478e.54e72a82.433426db/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FMacBook%2520Air%252013%25E3%2582%25A4%25E3%2583%25B3%25E3%2583%2581%2520%2528M1%2529%2F"
+  },
+  {
+    "id": "macbook-air-m3-15",
+    "name": "MacBook Air 15インチ (M3)",
+    "maker": "apple",
+    "series": "MacBook Air",
+    "price": 198800,
+    "priceMax": 228800,
+    "cpu": {
+      "model": "Apple M3",
+      "brand": "apple",
+      "generation": "M3",
+      "cores": 8,
+      "threads": 8,
+      "tdp": 15
+    },
+    "ram": 16,
+    "storage": {
+      "size": 512,
+      "type": "nvme"
+    },
+    "gpu": {
+      "type": "integrated",
+      "model": "Apple M3 GPU 10コア",
+      "vram": 0
+    },
+    "display": {
+      "size": 15.3,
+      "resolution": "2880x1864",
+      "refresh": 60,
+      "panel": "Liquid Retina",
+      "brightness": 500
+    },
+    "weight": 1.51,
+    "battery": 18,
+    "os": "macos",
+    "tags": [
+      "work",
+      "creator",
+      "student"
+    ],
+    "score": {
+      "overall": 87,
+      "performance": 85,
+      "portability": 88,
+      "display": 92,
+      "keyboard": 82,
+      "value": 68
+    },
+    "description": "Air 13インチの画面を大きくしたモデル。性能はほぼ同じで画面が広くなる分、マルチタスクや資料作成がしやすい。持ち運びも苦にならない重量。",
+    "pros": [
+      "15インチながら1.51kgの軽量",
+      "大画面で作業効率UP",
+      "バッテリー18時間"
+    ],
+    "cons": [
+      "13インチより割高感がある",
+      "ゲーム用途には不向き"
+    ],
+    "highlight": "大画面が欲しいけど軽さも捨てたくない人向け",
+    "amazonUrl": "https://www.amazon.co.jp/s?k=MacBook+Air+15+M3&tag=gearmasterrev-22",
+    "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/54e72a81.fa5d478e.54e72a82.433426db/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FMacBook%2520Air%252015%25E3%2582%25A4%25E3%2583%25B3%25E3%2583%2581%2520%2528M3%2529%2F"
+  },
+  {
+    "id": "macbook-pro-m3-14",
+    "name": "MacBook Pro 14インチ (M3 Pro)",
+    "maker": "apple",
+    "series": "MacBook Pro",
+    "price": 248800,
+    "priceMax": 368800,
+    "cpu": {
+      "model": "Apple M3 Pro",
+      "brand": "apple",
+      "generation": "M3 Pro",
+      "cores": 11,
+      "threads": 11,
+      "tdp": 30
+    },
+    "ram": 18,
+    "storage": {
+      "size": 512,
+      "type": "nvme"
+    },
+    "gpu": {
+      "type": "integrated",
+      "model": "Apple M3 Pro GPU 14コア",
+      "vram": 0
+    },
+    "display": {
+      "size": 14.2,
+      "resolution": "3024x1964",
+      "refresh": 120,
+      "panel": "Liquid Retina XDR",
+      "brightness": 1000
+    },
+    "weight": 1.61,
+    "battery": 17,
+    "os": "macos",
+    "tags": [
+      "creator",
+      "work"
+    ],
+    "score": {
+      "overall": 93,
+      "performance": 95,
+      "portability": 88,
+      "display": 98,
+      "keyboard": 82,
+      "value": 60
+    },
+    "description": "プロ向けMacBook Pro。M3 Proチップで4K動画編集・Xcode・機械学習まで難なくこなす。ProMotion(120Hz)のXDRディスプレイは業界最高水準。",
+    "pros": [
+      "M3 Proで長時間ヘビー作業も快適",
+      "ProMotion 120Hz XDRディスプレイ",
+      "HDMIポート・SDカードスロット搭載",
+      "バッテリー17時間"
+    ],
+    "cons": [
+      "価格が高い（25万円〜）",
+      "Windowsが使えない"
+    ],
+    "highlight": "動画編集・開発のプロが選ぶ最高スペック",
+    "amazonUrl": "https://www.amazon.co.jp/s?k=MacBook+Pro+14+M3+Pro&tag=gearmasterrev-22",
+    "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/54e72a81.fa5d478e.54e72a82.433426db/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FMacBook%2520Pro%252014%25E3%2582%25A4%25E3%2583%25B3%25E3%2583%2581%2520%2528M3%2520Pro%2529%2F"
+  },
+  {
+    "id": "thinkpad-x1-carbon",
+    "name": "ThinkPad X1 Carbon Gen 13",
+    "maker": "lenovo",
+    "series": "ThinkPad",
+    "price": 199800,
+    "priceMax": 280000,
+    "cpu": {
+      "model": "Intel Core Ultra 7",
+      "brand": "intel",
+      "generation": "Lunar Lake",
+      "cores": 8,
+      "threads": 8,
+      "tdp": 17
+    },
+    "ram": 16,
+    "storage": {
+      "size": 512,
+      "type": "nvme"
+    },
+    "gpu": {
+      "type": "integrated",
+      "model": "Intel Arc Graphics",
+      "vram": 0
+    },
+    "display": {
+      "size": 14.0,
+      "resolution": "1920x1200",
+      "refresh": 60,
+      "panel": "IPS",
+      "brightness": 400
+    },
+    "weight": 1.09,
+    "battery": 15,
+    "os": "windows",
+    "tags": [
+      "work",
+      "mobile"
+    ],
+    "score": {
+      "overall": 90,
+      "performance": 82,
+      "portability": 98,
+      "display": 80,
+      "keyboard": 98,
+      "value": 68
+    },
+    "description": "世界最軽量クラスのビジネス用ノートPC。1.09kgの軽量ボディにThinkPadの最高キーボードを搭載。MIL-SPEC取得で出張・移動が多いビジネスパーソンに最適。",
+    "pros": [
+      "1.09kgの超軽量で毎日の通勤・出張でも苦にならない",
+      "業界最高評価のThinkPadキーボード",
+      "指紋認証・顔認証対応",
+      "堅牢なMIL規格取得"
+    ],
+    "cons": [
+      "価格が高い（20万円〜）",
+      "ディスプレイは平均的",
+      "dGPUなしで動画編集は苦手"
+    ],
+    "highlight": "1.09kgの超軽量。ビジネスマンの最終兵器",
+    "popular": true,
+    "amazonUrl": "https://www.amazon.co.jp/s?k=ThinkPad+X1+Carbon+Gen+13+2025&tag=gearmasterrev-22",
+    "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/54e72a81.fa5d478e.54e72a82.433426db/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FThinkPad%2520X1%2520Carbon%2520Gen%252013%2F"
+  },
+  {
+    "id": "ideapad-slim5-gen9",
+    "name": "IdeaPad Slim 5 Gen 9",
+    "maker": "lenovo",
+    "series": "IdeaPad",
+    "price": 89800,
+    "priceMax": 119800,
+    "cpu": {
+      "model": "AMD Ryzen 7 8745H",
+      "brand": "amd",
+      "generation": "8000",
+      "cores": 8,
+      "threads": 16,
+      "tdp": 45
+    },
+    "ram": 16,
+    "storage": {
+      "size": 512,
+      "type": "nvme"
+    },
+    "gpu": {
+      "type": "integrated",
+      "model": "AMD Radeon 780M",
+      "vram": 0
+    },
+    "display": {
+      "size": 14.0,
+      "resolution": "1920x1200",
+      "refresh": 60,
+      "panel": "IPS",
+      "brightness": 350
+    },
+    "weight": 1.46,
+    "battery": 12,
+    "os": "windows",
+    "tags": [
+      "student",
+      "work",
+      "general"
+    ],
+    "score": {
+      "overall": 82,
+      "performance": 80,
+      "portability": 88,
+      "display": 78,
+      "keyboard": 85,
+      "value": 88
+    },
+    "description": "学生・社会人に最適なコスパノートPC。Ryzen 7搭載で普段遣いから軽いクリエイティブ作業まで対応。ThinkPadに近い使い心地のキーボードで打ちやすい。",
+    "pros": [
+      "9万円台でRyzen 7搭載",
+      "キーボード品質が高い（Lenovo品質）",
+      "軽い作業なら十分な性能",
+      "1.46kgで軽量"
+    ],
+    "cons": [
+      "重い動画編集には力不足",
+      "ディスプレイの輝度がやや低い"
+    ],
+    "highlight": "9万円台のコスパ最強ノートPC",
+    "popular": true,
+    "amazonUrl": "https://www.amazon.co.jp/s?k=IdeaPad+Slim+5+Gen+9+Ryzen7&tag=gearmasterrev-22",
+    "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/54e72a81.fa5d478e.54e72a82.433426db/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FIdeaPad%2520Slim%25205%2520Gen%25209%2F"
+  },
+  {
+    "id": "legion-pro-5i",
+    "name": "Legion Pro 5i Gen 9",
+    "maker": "lenovo",
+    "series": "Legion",
+    "price": 199800,
+    "priceMax": 259800,
+    "cpu": {
+      "model": "Intel Core i9-14900HX",
+      "brand": "intel",
+      "generation": "14th",
+      "cores": 24,
+      "threads": 32,
+      "tdp": 55
+    },
+    "ram": 32,
+    "storage": {
+      "size": 1024,
+      "type": "nvme"
+    },
+    "gpu": {
+      "type": "discrete",
+      "model": "NVIDIA RTX 4070",
+      "vram": 8
+    },
+    "display": {
+      "size": 16.0,
+      "resolution": "2560x1600",
+      "refresh": 165,
+      "panel": "IPS",
+      "brightness": 500
+    },
+    "weight": 2.5,
+    "battery": 6,
+    "os": "windows",
+    "tags": [
+      "gaming"
+    ],
+    "score": {
+      "overall": 88,
+      "performance": 95,
+      "portability": 55,
+      "display": 88,
+      "keyboard": 82,
+      "value": 80
+    },
+    "description": "Legion Proシリーズのミドルハイ機。RTX 4070搭載でFHD〜QHDゲームを高設定で楽しめる。165Hz高リフレッシュレートディスプレイと優秀な冷却システムが特徴。",
+    "pros": [
+      "RTX 4070搭載でゲーム性能が高い",
+      "165Hz QHDディスプレイ",
+      "32GBメモリ搭載",
+      "冷却性能が優秀"
+    ],
+    "cons": [
+      "2.5kgと重い",
+      "バッテリーは6時間のみ",
+      "ゲーミングPCらしい厚みがある"
+    ],
+    "highlight": "20万円台でRTX 4070搭載の高性能ゲーミングノート",
+    "amazonUrl": "https://www.amazon.co.jp/s?k=Legion+Pro+5i+Gen+9&tag=gearmasterrev-22",
+    "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/54e72a81.fa5d478e.54e72a82.433426db/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FLegion%2520Pro%25205i%2520Gen%25209%2F"
+  },
+  {
+    "id": "dell-xps-14",
+    "name": "Dell XPS 14 (2024)",
+    "maker": "dell",
+    "series": "XPS",
+    "price": 219800,
+    "priceMax": 298000,
+    "cpu": {
+      "model": "Intel Core Ultra 7 155H",
+      "brand": "intel",
+      "generation": "Core Ultra",
+      "cores": 16,
+      "threads": 22,
+      "tdp": 28
+    },
+    "ram": 32,
+    "storage": {
+      "size": 1024,
+      "type": "nvme"
+    },
+    "gpu": {
+      "type": "discrete",
+      "model": "NVIDIA RTX 4060",
+      "vram": 8
+    },
+    "display": {
+      "size": 14.5,
+      "resolution": "3200x2000",
+      "refresh": 60,
+      "panel": "OLED",
+      "brightness": 400
+    },
+    "weight": 1.69,
+    "battery": 13,
+    "os": "windows",
+    "tags": [
+      "creator",
+      "work"
+    ],
+    "score": {
+      "overall": 88,
+      "performance": 88,
+      "portability": 82,
+      "display": 98,
+      "keyboard": 78,
+      "value": 62
+    },
+    "description": "3200x2000解像度のOLEDディスプレイが最大の魅力。RTX 4060搭載で動画編集や写真現像も快適。薄型ボディに高い質感を持つプレミアムクリエイターPC。",
+    "pros": [
+      "3200x2000 OLEDが圧倒的な発色",
+      "薄型で高い質感",
+      "RTX 4060搭載"
+    ],
+    "cons": [
+      "価格が22万円〜と高い",
+      "60Hzなのでゲーム向きでない",
+      "重さはやや中途半端"
+    ],
+    "highlight": "Windowsで最高のOLEDディスプレイを求めるなら",
+    "amazonUrl": "https://www.amazon.co.jp/s?k=Dell+XPS+14+2024&tag=gearmasterrev-22",
+    "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/54e72a81.fa5d478e.54e72a82.433426db/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FDell%2520XPS%252014%2520%25282024%2529%2F"
+  },
+  {
+    "id": "alienware-m16-r2",
+    "name": "Alienware m16 R2",
+    "maker": "dell",
+    "series": "Alienware",
+    "price": 269800,
+    "priceMax": 349800,
+    "cpu": {
+      "model": "Intel Core Ultra 9 185H",
+      "brand": "intel",
+      "generation": "Core Ultra",
+      "cores": 16,
+      "threads": 22,
+      "tdp": 45
+    },
+    "ram": 32,
+    "storage": {
+      "size": 1024,
+      "type": "nvme"
+    },
+    "gpu": {
+      "type": "discrete",
+      "model": "NVIDIA RTX 4080",
+      "vram": 12
+    },
+    "display": {
+      "size": 16.0,
+      "resolution": "2560x1600",
+      "refresh": 240,
+      "panel": "IPS",
+      "brightness": 500
+    },
+    "weight": 3.18,
+    "battery": 5,
+    "os": "windows",
+    "tags": [
+      "gaming"
+    ],
+    "score": {
+      "overall": 85,
+      "performance": 98,
+      "portability": 35,
+      "display": 90,
+      "keyboard": 78,
+      "value": 60
+    },
+    "description": "Alienwareのハイエンドゲーミングノート。RTX 4080搭載・240Hz高リフレッシュレートで4Kゲームも可能。重量3.18kgは割り切りが必要だが、デスクに置いて使う前提なら最高の性能。",
+    "pros": [
+      "RTX 4080の圧倒的ゲーム性能",
+      "240Hz高リフレッシュレート",
+      "独自のAlienFXライティング"
+    ],
+    "cons": [
+      "3.18kgと非常に重い",
+      "バッテリー持ちが5時間のみ",
+      "価格が高い"
+    ],
+    "highlight": "性能妥協なしのゲーミングモンスター",
+    "amazonUrl": "https://www.amazon.co.jp/s?k=Alienware+m16+R2&tag=gearmasterrev-22",
+    "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/54e72a81.fa5d478e.54e72a82.433426db/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FAlienware%2520m16%2520R2%2F"
+  },
+  {
+    "id": "hp-spectre-x360-14",
+    "name": "HP Spectre x360 14",
+    "maker": "hp",
+    "series": "Spectre",
+    "price": 229800,
+    "priceMax": 269800,
+    "cpu": {
+      "model": "Intel Core Ultra 7 155U",
+      "brand": "intel",
+      "generation": "Core Ultra",
+      "cores": 12,
+      "threads": 14,
+      "tdp": 15
+    },
+    "ram": 32,
+    "storage": {
+      "size": 1024,
+      "type": "nvme"
+    },
+    "gpu": {
+      "type": "integrated",
+      "model": "Intel Arc Graphics",
+      "vram": 0
+    },
+    "display": {
+      "size": 13.5,
+      "resolution": "2880x1920",
+      "refresh": 60,
+      "panel": "OLED",
+      "brightness": 400
+    },
+    "weight": 1.36,
+    "battery": 17,
+    "os": "windows",
+    "tags": [
+      "work",
+      "creator",
+      "mobile"
+    ],
+    "score": {
+      "overall": 86,
+      "performance": 78,
+      "portability": 90,
+      "display": 95,
+      "keyboard": 82,
+      "value": 65
+    },
+    "description": "360度回転する2in1 PCとしてOLED搭載・1.36kgの軽量を実現。タブレットとしてもペン入力でき、ビジネス・クリエイター両方に対応。",
+    "pros": [
+      "360度2in1でタブレットにもなる",
+      "OLED搭載で発色が美しい",
+      "ペン入力対応",
+      "1.36kgの軽量"
+    ],
+    "cons": [
+      "dGPUなしで重い処理は苦手",
+      "価格が23万円〜と高い"
+    ],
+    "highlight": "Windowsで使える最高の2in1プレミアムPC",
+    "amazonUrl": "https://www.amazon.co.jp/s?k=HP+Spectre+x360+14&tag=gearmasterrev-22",
+    "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/54e72a81.fa5d478e.54e72a82.433426db/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FHP%2520Spectre%2520x360%252014%2F"
+  },
+  {
+    "id": "hp-omen-16",
+    "name": "HP OMEN 16",
+    "maker": "hp",
+    "series": "OMEN",
+    "price": 179800,
+    "priceMax": 249800,
+    "cpu": {
+      "model": "Intel Core i7-13700HX",
+      "brand": "intel",
+      "generation": "13th",
+      "cores": 16,
+      "threads": 24,
+      "tdp": 55
+    },
+    "ram": 16,
+    "storage": {
+      "size": 512,
+      "type": "nvme"
+    },
+    "gpu": {
+      "type": "discrete",
+      "model": "NVIDIA RTX 4070",
+      "vram": 8
+    },
+    "display": {
+      "size": 16.1,
+      "resolution": "2560x1440",
+      "refresh": 165,
+      "panel": "IPS",
+      "brightness": 500
+    },
+    "weight": 2.48,
+    "battery": 7,
+    "os": "windows",
+    "tags": [
+      "gaming"
+    ],
+    "score": {
+      "overall": 84,
+      "performance": 92,
+      "portability": 52,
+      "display": 87,
+      "keyboard": 78,
+      "value": 78
+    },
+    "description": "HPのゲーミングライン中核機。RTX 4070・165Hz QHDディスプレイ搭載。OMEN Hubで冷却・性能の細かい設定が可能で、ゲームへの最適化がしやすい。",
+    "pros": [
+      "RTX 4070で高設定ゲームが快適",
+      "165Hz QHDディスプレイ",
+      "OMEN Hubで細かい設定が可能"
+    ],
+    "cons": [
+      "2.48kgと重め",
+      "バッテリーが7時間"
+    ],
+    "highlight": "HPのゲーミングPCはコスパと完成度のバランスが良い",
+    "amazonUrl": "https://www.amazon.co.jp/s?k=HP+OMEN+16+RTX4070&tag=gearmasterrev-22",
+    "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/54e72a81.fa5d478e.54e72a82.433426db/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FHP%2520OMEN%252016%2F"
+  },
+  {
+    "id": "asus-rog-zephyrus-g14",
+    "name": "ASUS ROG Zephyrus G14 (2024)",
+    "maker": "asus",
+    "series": "ROG",
+    "price": 229800,
+    "priceMax": 279800,
+    "cpu": {
+      "model": "AMD Ryzen 9 8945HS",
+      "brand": "amd",
+      "generation": "8000",
+      "cores": 8,
+      "threads": 16,
+      "tdp": 45
+    },
+    "ram": 32,
+    "storage": {
+      "size": 1024,
+      "type": "nvme"
+    },
+    "gpu": {
+      "type": "discrete",
+      "model": "NVIDIA RTX 4070",
+      "vram": 8
+    },
+    "display": {
+      "size": 14.0,
+      "resolution": "2560x1600",
+      "refresh": 165,
+      "panel": "OLED",
+      "brightness": 500
+    },
+    "weight": 1.65,
+    "battery": 10,
+    "os": "windows",
+    "tags": [
+      "gaming",
+      "creator"
+    ],
+    "score": {
+      "overall": 92,
+      "performance": 93,
+      "portability": 80,
+      "display": 96,
+      "keyboard": 80,
+      "value": 78
+    },
+    "description": "14インチのゲーミングOLEDノートPC。1.65kgでRTX 4070搭載という圧倒的コスパと性能のバランス。165Hz OLEDでゲームも動画も美しい。持ち運べるゲーミングPCとして最高峰。",
+    "pros": [
+      "1.65kgでRTX 4070搭載は業界屈指",
+      "165Hz OLED搭載",
+      "ゲームも映像制作も両立",
+      "バッテリーも10時間と長め"
+    ],
+    "cons": [
+      "価格が23万円〜と高い",
+      "アニメマトリクス（背面LED）が好みを選ぶ"
+    ],
+    "highlight": "持ち運べる最強ゲーミングノートPC",
+    "popular": true,
+    "new": true,
+    "amazonUrl": "https://www.amazon.co.jp/s?k=ROG+Zephyrus+G14+2024+OLED&tag=gearmasterrev-22",
+    "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/54e72a81.fa5d478e.54e72a82.433426db/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FASUS%2520ROG%2520Zephyrus%2520G14%2520%25282024%2529%2F"
+  },
+  {
+    "id": "asus-zenbook-14-oled",
+    "name": "ASUS Zenbook 14 OLED",
+    "maker": "asus",
+    "series": "Zenbook",
+    "price": 119800,
+    "priceMax": 159800,
+    "cpu": {
+      "model": "Intel Core Ultra 7 155H",
+      "brand": "intel",
+      "generation": "Core Ultra",
+      "cores": 16,
+      "threads": 22,
+      "tdp": 28
+    },
+    "ram": 16,
+    "storage": {
+      "size": 512,
+      "type": "nvme"
+    },
+    "gpu": {
+      "type": "integrated",
+      "model": "Intel Arc Graphics",
+      "vram": 0
+    },
+    "display": {
+      "size": 14.0,
+      "resolution": "2880x1800",
+      "refresh": 120,
+      "panel": "OLED",
+      "brightness": 550
+    },
+    "weight": 1.36,
+    "battery": 14,
+    "os": "windows",
+    "tags": [
+      "work",
+      "creator",
+      "student",
+      "mobile"
+    ],
+    "score": {
+      "overall": 87,
+      "performance": 82,
+      "portability": 90,
+      "display": 95,
+      "keyboard": 80,
+      "value": 85
+    },
+    "description": "12万円台でOLED搭載の薄型軽量PC。発色・コントラスト・応答速度がIPS液晶とは段違い。Core Ultra搭載で動画編集・写真現像にも対応できる。",
+    "pros": [
+      "12万円台でOLED搭載",
+      "120Hz対応でヌルヌル動作",
+      "1.36kgで軽量",
+      "発色が美しい"
+    ],
+    "cons": [
+      "dGPUなしでゲームは苦手",
+      "外部GPU（dGPU）なし"
+    ],
+    "highlight": "コスパNo.1 OLEDノートPC",
+    "popular": true,
+    "amazonUrl": "https://www.amazon.co.jp/s?k=ASUS+Zenbook+14+OLED+Core+Ultra&tag=gearmasterrev-22",
+    "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/54e72a81.fa5d478e.54e72a82.433426db/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FASUS%2520Zenbook%252014%2520OLED%2F"
+  },
+  {
+    "id": "asus-tuf-a15",
+    "name": "ASUS TUF Gaming A15 (2024)",
+    "maker": "asus",
+    "series": "TUF Gaming",
+    "price": 139800,
+    "priceMax": 179800,
+    "cpu": {
+      "model": "AMD Ryzen 7 8745H",
+      "brand": "amd",
+      "generation": "8000",
+      "cores": 8,
+      "threads": 16,
+      "tdp": 45
+    },
+    "ram": 16,
+    "storage": {
+      "size": 512,
+      "type": "nvme"
+    },
+    "gpu": {
+      "type": "discrete",
+      "model": "NVIDIA RTX 4060",
+      "vram": 8
+    },
+    "display": {
+      "size": 15.6,
+      "resolution": "1920x1080",
+      "refresh": 144,
+      "panel": "IPS",
+      "brightness": 300
+    },
+    "weight": 2.2,
+    "battery": 8,
+    "os": "windows",
+    "tags": [
+      "gaming"
+    ],
+    "score": {
+      "overall": 83,
+      "performance": 88,
+      "portability": 60,
+      "display": 78,
+      "keyboard": 78,
+      "value": 90
+    },
+    "description": "14万円台でRTX 4060搭載のコスパゲーミングPC。144Hz FHDディスプレイでFPS・格ゲー向きの高フレームレートが出る。Ryzen 7搭載でゲーム以外の用途にも対応。",
+    "pros": [
+      "RTX 4060搭載で14万円台のコスパ",
+      "144Hz FHDディスプレイ",
+      "軍用規格MIL-SPEC取得"
+    ],
+    "cons": [
+      "ディスプレイ輝度が300nitと低め",
+      "2.2kgでやや重い"
+    ],
+    "highlight": "14万円台のゲーミングPCコスパNo.1候補",
+    "popular": true,
+    "amazonUrl": "https://www.amazon.co.jp/s?k=ASUS+TUF+Gaming+A15+2024+RTX4060&tag=gearmasterrev-22",
+    "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/54e72a81.fa5d478e.54e72a82.433426db/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FASUS%2520TUF%2520Gaming%2520A15%2520%25282024%2529%2F"
+  },
+  {
+    "id": "surface-laptop-7",
+    "name": "Surface Laptop 7 (13.8インチ)",
+    "maker": "microsoft",
+    "series": "Surface Laptop",
+    "price": 179800,
+    "priceMax": 249800,
+    "cpu": {
+      "model": "Snapdragon X Elite",
+      "brand": "amd",
+      "generation": "Snapdragon X",
+      "cores": 12,
+      "threads": 12,
+      "tdp": 23
+    },
+    "ram": 16,
+    "storage": {
+      "size": 512,
+      "type": "nvme"
+    },
+    "gpu": {
+      "type": "integrated",
+      "model": "Qualcomm Adreno",
+      "vram": 0
+    },
+    "display": {
+      "size": 13.8,
+      "resolution": "2304x1536",
+      "refresh": 120,
+      "panel": "PixelSense",
+      "brightness": 600
+    },
+    "weight": 1.34,
+    "battery": 22,
+    "os": "windows",
+    "tags": [
+      "work",
+      "student",
+      "mobile"
+    ],
+    "score": {
+      "overall": 85,
+      "performance": 80,
+      "portability": 92,
+      "display": 90,
+      "keyboard": 85,
+      "value": 70
+    },
+    "description": "Copilot+ PC対応のARM（Snapdragon X Elite）搭載Surface。バッテリーが驚異の22時間で、AIアシスト機能が充実。ただしARMアーキテクチャのためx86ソフトの一部は動作しない・遅くなる場合がある。DockerやVirtualBoxなど開発ツールの互換性確認が必須。",
+    "pros": [
+      "バッテリー22時間は業界最長水準",
+      "Copilot+ PCでAI機能が充実",
+      "高品質なキーボードとタッチパッド",
+      "軽量な1.34kg"
+    ],
+    "cons": [
+      "⚠️ ARMチップのためx86専用ソフト・Docker・一部ゲームが動作しない場合あり",
+      "プログラミング用途は開発ツールの互換性を事前確認必須",
+      "価格が高め（18万円〜）",
+      "ゲームには向かない"
+    ],
+    "highlight": "バッテリー22時間のAI対応Windows PC",
+    "amazonUrl": "https://www.amazon.co.jp/s?k=Surface+Laptop+7&tag=gearmasterrev-22",
+    "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/54e72a81.fa5d478e.54e72a82.433426db/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FSurface%2520Laptop%25207%2520%252813.8%25E3%2582%25A4%25E3%2583%25B3%25E3%2583%2581%2529%2F"
+  },
+  {
+    "id": "surface-pro-11",
+    "name": "Surface Pro 11",
+    "maker": "microsoft",
+    "series": "Surface Pro",
+    "price": 178980,
+    "priceMax": 268980,
+    "cpu": {
+      "model": "Snapdragon X Plus",
+      "brand": "amd",
+      "generation": "Snapdragon X",
+      "cores": 10,
+      "threads": 10,
+      "tdp": 23
+    },
+    "ram": 16,
+    "storage": {
+      "size": 512,
+      "type": "nvme"
+    },
+    "gpu": {
+      "type": "integrated",
+      "model": "Qualcomm Adreno",
+      "vram": 0
+    },
+    "display": {
+      "size": 13.0,
+      "resolution": "2880x1920",
+      "refresh": 120,
+      "panel": "PixelSense Flow",
+      "brightness": 600
+    },
+    "weight": 0.895,
+    "battery": 14,
+    "os": "windows",
+    "tags": [
+      "work",
+      "mobile"
+    ],
+    "score": {
+      "overall": 82,
+      "performance": 78,
+      "portability": 95,
+      "display": 90,
+      "keyboard": 75,
+      "value": 62
+    },
+    "description": "895gのタブレット本体（ARM・Snapdragon X Plus搭載）にキーボードカバーを付けて使うPC。ペン入力対応で手書きメモ・イラストも可能。PCとして使う場合はキーボードカバー込みで約1.2kg。ARMチップのため一部x86ソフトが非対応。",
+    "pros": [
+      "タブレット本体895g（キーボード込みで約1.2kg）",
+      "ペン入力対応でイラスト・手書きメモが快適",
+      "120Hz高リフレッシュレート"
+    ],
+    "cons": [
+      "キーボードカバーが別売り（約¥25,000〜）でPCとして使うには必須",
+      "⚠️ ARMチップのためx86専用ソフト・Docker・一部ゲームが非対応",
+      "タブレット本体895gだが「PC」として使う際の実重量は1.2kg前後"
+    ],
+    "highlight": "タブレット+PCの一台二役。ペン入力も使える（ARM互換性に注意）",
+    "amazonUrl": "https://www.amazon.co.jp/s?k=Surface+Pro+11&tag=gearmasterrev-22",
+    "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/54e72a81.fa5d478e.54e72a82.433426db/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FSurface%2520Pro%252011%2F"
+  },
+  {
+    "id": "g-tune-e5",
+    "name": "G-Tune E5-I7G60BK-B",
+    "maker": "mouse",
+    "series": "G-Tune",
+    "price": 169800,
+    "priceMax": 209800,
+    "cpu": {
+      "model": "Intel Core i7-13700H",
+      "brand": "intel",
+      "generation": "13th",
+      "cores": 14,
+      "threads": 20,
+      "tdp": 45
+    },
+    "ram": 16,
+    "storage": {
+      "size": 512,
+      "type": "nvme"
+    },
+    "gpu": {
+      "type": "discrete",
+      "model": "NVIDIA RTX 4060",
+      "vram": 8
+    },
+    "display": {
+      "size": 15.6,
+      "resolution": "1920x1080",
+      "refresh": 144,
+      "panel": "IPS",
+      "brightness": 300
+    },
+    "weight": 2.19,
+    "battery": 7,
+    "os": "windows",
+    "tags": [
+      "gaming"
+    ],
+    "score": {
+      "overall": 80,
+      "performance": 87,
+      "portability": 58,
+      "display": 78,
+      "keyboard": 72,
+      "value": 85
+    },
+    "description": "国産BTOのゲーミングノートPC。RTX 4060搭載・国内サポート対応が強み。日本製品としてのサポート安心感を求める人向け。",
+    "pros": [
+      "国産BTOで日本語サポートが安心",
+      "RTX 4060搭載でゲームが快適",
+      "カスタム注文が可能"
+    ],
+    "cons": [
+      "デザインは平凡",
+      "バッテリー持ちが7時間"
+    ],
+    "highlight": "国内サポートで安心のゲーミングノートPC",
+    "amazonUrl": "https://www.amazon.co.jp/s?k=G-Tune+E5+RTX4060&tag=gearmasterrev-22",
+    "makerUrl": "https://www.mouse-jp.co.jp/store/g-tune/",
+    "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/54e72a81.fa5d478e.54e72a82.433426db/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FG-Tune%2520E5-I7G60BK-B%2F"
+  },
+  {
+    "id": "daiv-z4",
+    "name": "DAIV Z4-I7G60BK",
+    "maker": "mouse",
+    "series": "DAIV",
+    "price": 159800,
+    "priceMax": 199800,
+    "cpu": {
+      "model": "Intel Core i7-13700H",
+      "brand": "intel",
+      "generation": "13th",
+      "cores": 14,
+      "threads": 20,
+      "tdp": 45
+    },
+    "ram": 32,
+    "storage": {
+      "size": 1024,
+      "type": "nvme"
+    },
+    "gpu": {
+      "type": "discrete",
+      "model": "NVIDIA RTX 4060",
+      "vram": 8
+    },
+    "display": {
+      "size": 14.0,
+      "resolution": "2560x1600",
+      "refresh": 165,
+      "panel": "IPS",
+      "brightness": 400
+    },
+    "weight": 1.72,
+    "battery": 8,
+    "os": "windows",
+    "tags": [
+      "creator",
+      "gaming"
+    ],
+    "score": {
+      "overall": 82,
+      "performance": 88,
+      "portability": 78,
+      "display": 85,
+      "keyboard": 72,
+      "value": 88
+    },
+    "description": "14インチのクリエイター向け国産BTOノートPC。32GB RAMと1TB SSDでPremiereやAfter Effectsが快適に動く。165Hzディスプレイはゲームにも使える。",
+    "pros": [
+      "32GB RAM・1TB SSDで動画編集が快適",
+      "国内生産・サポート",
+      "14インチで持ち運びやすい"
+    ],
+    "cons": [
+      "デザインは平凡",
+      "直販のみで実物を見られない"
+    ],
+    "highlight": "動画編集を安心してこなせるクリエイターPC",
+    "amazonUrl": "https://www.amazon.co.jp/s?k=DAIV+Z4+RTX4060&tag=gearmasterrev-22",
+    "makerUrl": "https://www.mouse-jp.co.jp/store/daiv/",
+    "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/54e72a81.fa5d478e.54e72a82.433426db/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FDAIV%2520Z4-I7G60BK%2F"
+  },
+  {
+    "id": "galleria-xa7c-r47",
+    "name": "GALLERIA XA7C-R47",
+    "maker": "dospara",
+    "series": "GALLERIA",
+    "price": 149800,
+    "priceMax": 179800,
+    "cpu": {
+      "model": "Intel Core i7-13700H",
+      "brand": "intel",
+      "generation": "13th",
+      "cores": 14,
+      "threads": 20,
+      "tdp": 45
+    },
+    "ram": 16,
+    "storage": {
+      "size": 512,
+      "type": "nvme"
+    },
+    "gpu": {
+      "type": "discrete",
+      "model": "NVIDIA RTX 4070",
+      "vram": 8
+    },
+    "display": {
+      "size": 15.6,
+      "resolution": "1920x1080",
+      "refresh": 144,
+      "panel": "IPS",
+      "brightness": 300
+    },
+    "weight": 2.2,
+    "battery": 6,
+    "os": "windows",
+    "tags": [
+      "gaming"
+    ],
+    "score": {
+      "overall": 85,
+      "performance": 92,
+      "portability": 55,
+      "display": 78,
+      "keyboard": 70,
+      "value": 93
+    },
+    "description": "15万円でRTX 4070を搭載するコスパ最強ゲーミングノート。FHD 144Hz環境でApex・Valorantが高設定でも240fps超えを叩き出す。性能重視でコスパを優先したい人向け。",
+    "pros": [
+      "15万円台でRTX 4070搭載",
+      "Apex・Valorantなら240fps超え",
+      "ドスパラ実店舗でサポートが受けられる"
+    ],
+    "cons": [
+      "2.2kgと重め",
+      "バッテリーが6時間のみ",
+      "品質は海外メーカーより劣る場合あり"
+    ],
+    "highlight": "15万円でRTX 4070！コスパゲーミングの王道",
+    "popular": true,
+    "amazonUrl": "https://www.amazon.co.jp/s?k=GALLERIA+XA7C-R47&tag=gearmasterrev-22",
+    "makerUrl": "https://www.dospara.co.jp/",
+    "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/54e72a81.fa5d478e.54e72a82.433426db/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FGALLERIA%2520XA7C-R47%2F"
+  },
+  {
+    "id": "acer-nitro-v15",
+    "name": "Acer Nitro V 15",
+    "maker": "acer",
+    "series": "Nitro",
+    "price": 99800,
+    "priceMax": 139800,
+    "cpu": {
+      "model": "AMD Ryzen 5 7535HS",
+      "brand": "amd",
+      "generation": "7000",
+      "cores": 6,
+      "threads": 12,
+      "tdp": 54
+    },
+    "ram": 16,
+    "storage": {
+      "size": 512,
+      "type": "nvme"
+    },
+    "gpu": {
+      "type": "discrete",
+      "model": "NVIDIA RTX 4060",
+      "vram": 8
+    },
+    "display": {
+      "size": 15.6,
+      "resolution": "1920x1080",
+      "refresh": 144,
+      "panel": "IPS",
+      "brightness": 300
+    },
+    "weight": 2.3,
+    "battery": 7,
+    "os": "windows",
+    "tags": [
+      "gaming"
+    ],
+    "score": {
+      "overall": 80,
+      "performance": 87,
+      "portability": 55,
+      "display": 78,
+      "keyboard": 70,
+      "value": 95
+    },
+    "description": "10万円でRTX 4060搭載のエントリーゲーミングPC。コスパを最優先したいゲーマーのファーストゲーミングPCとして最適。Apex・Valorantなら高設定144fps以上が出る。",
+    "pros": [
+      "10万円台でRTX 4060搭載",
+      "144Hz FHDでFPSゲームに最適",
+      "Acer公式サポートで安心"
+    ],
+    "cons": [
+      "重量2.3kgで持ち運びはしんどい",
+      "ディスプレイ輝度が低め",
+      "品質感はやや低め"
+    ],
+    "highlight": "ゲーミングPC入門の最高コスパ",
+    "popular": true,
+    "amazonUrl": "https://www.amazon.co.jp/s?k=Acer+Nitro+V+15+RTX4060&tag=gearmasterrev-22",
+    "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/54e72a81.fa5d478e.54e72a82.433426db/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FAcer%2520Nitro%2520V%252015%2F"
+  }
+]

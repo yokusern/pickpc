@@ -1,0 +1,843 @@
+[
+  {
+    "id": "apple",
+    "name": "Apple",
+    "nameJa": "アップル",
+    "country": "アメリカ",
+    "founded": 1976,
+    "hq": "カリフォルニア州クパチーノ",
+    "tagline": "デザイン・性能・エコシステム、すべてが一流",
+    "overview": "Appleは独自設計のM系チップを搭載するMacシリーズで知られる。性能・バッテリー・デザインを高次元で両立しており、クリエイター・エンジニアに絶大な支持を受ける。WindowsとはOS・エコシステムが異なるため、用途を選ぶ。",
+    "series": [
+      {
+        "name": "MacBook Air",
+        "target": "学生・モバイルワーカー",
+        "desc": "超軽量・ファンレス設計。M2/M3搭載で日常用途は十分すぎるほどの性能",
+        "lines": [
+          "MacBook Air 13インチ",
+          "MacBook Air 15インチ"
+        ]
+      },
+      {
+        "name": "MacBook Pro",
+        "target": "クリエイター・エンジニア",
+        "desc": "M3 Pro/Maxで動画編集・機械学習も快適。長時間のヘビー処理向け",
+        "lines": [
+          "MacBook Pro 14インチ",
+          "MacBook Pro 16インチ"
+        ]
+      },
+      {
+        "name": "Mac mini / iMac",
+        "target": "デスクトップユーザー",
+        "desc": "省スペース・省電力のデスクトップ。デュアルディスプレイ接続や外付けGPUも選択肢",
+        "lines": []
+      }
+    ],
+    "strengths": [
+      "M系チップの性能・消費電力比が圧倒的",
+      "バッテリー持ちが業界最長水準（15〜22時間）",
+      "トラックパッドが業界最高",
+      "ビルドクオリティ（アルミユニボディ）が抜群",
+      "Continuity Camera・AirDrop等エコシステム連携"
+    ],
+    "weaknesses": [
+      "価格が高い（最低15万円〜）",
+      "ゲームタイトルの対応率が低い",
+      "Windowsソフトとの互換性なし",
+      "ポート数が少ない（Air は2ポート）",
+      "メモリ・ストレージ後から変更不可"
+    ],
+    "recommend": "デザイン・動画編集・プログラミングをする人。Appleデバイスを既に使っている人。Windows不要な人。",
+    "ratings": {
+      "performance": 95,
+      "design": 100,
+      "keyboard": 82,
+      "display": 95,
+      "value": 65,
+      "support": 88
+    },
+    "featuredModels": [
+      "macbook-air-m3-13",
+      "macbook-pro-m3-14",
+      "macbook-air-m3-15"
+    ]
+  },
+  {
+    "id": "lenovo",
+    "name": "Lenovo",
+    "nameJa": "レノボ",
+    "country": "中国・アメリカ",
+    "founded": 1984,
+    "hq": "北京 / ノースカロライナ",
+    "marketShare": 24.2,
+    "tagline": "ビジネスPCの王様。キーボードで選ぶならLenovo",
+    "overview": "世界シェアNo.1のPCメーカー。ThinkPadのキーボードは業界最高と言われ、法人実績が豊富。IdeaPadはコスパ優秀な一般向け、LegionはゲーミングPCラインナップ。直販でカスタマイズ注文も可能。",
+    "series": [
+      {
+        "name": "ThinkPad",
+        "target": "ビジネスユーザー・エンジニア",
+        "desc": "堅牢性・キーボードが最高峰。MIL-SPEC取得。X1 Carbon は業界最軽量クラスのビジネス機",
+        "lines": [
+          "X1 Carbon",
+          "X1 Nano",
+          "T14s",
+          "T16",
+          "L14"
+        ]
+      },
+      {
+        "name": "IdeaPad",
+        "target": "学生・一般ユーザー",
+        "desc": "コスパ抜群の一般向けライン。SlimシリーズはCore Ultra搭載で薄型・軽量",
+        "lines": [
+          "IdeaPad Slim 5",
+          "IdeaPad Slim 3",
+          "IdeaPad Flex"
+        ]
+      },
+      {
+        "name": "Legion",
+        "target": "ゲーマー",
+        "desc": "ゲーミングPC専門ライン。冷却性能が高く、RTX 40/50系を搭載",
+        "lines": [
+          "Legion Pro 5i",
+          "Legion Pro 7i",
+          "Legion Slim 5i"
+        ]
+      },
+      {
+        "name": "Yoga",
+        "target": "クリエイター・モバイルユーザー",
+        "desc": "薄型2in1ライン。OLED搭載モデルもあり、デザイン・クオリティが高い",
+        "lines": []
+      }
+    ],
+    "strengths": [
+      "ThinkPadのキーボードが業界最高評価",
+      "法人実績No.1で壊れにくい設計",
+      "コスパが良い（同スペック他社比で安め）",
+      "直販でカスタマイズ可能",
+      "幅広い価格帯・ラインナップ"
+    ],
+    "weaknesses": [
+      "ThinkPadは黒一色で地味なデザイン",
+      "直販は納期2〜3週間",
+      "IdeaPadは品質にバラツキあり",
+      "スピーカー性能は平均的"
+    ],
+    "recommend": "キーボードを重視する人。耐久性・コスパを求める社会人。ゲーミングPCを安く買いたい人。",
+    "ratings": {
+      "performance": 85,
+      "design": 72,
+      "keyboard": 98,
+      "display": 80,
+      "value": 88,
+      "support": 80
+    },
+    "featuredModels": [
+      "thinkpad-x1-carbon",
+      "ideapad-slim5-gen9",
+      "legion-pro-5i"
+    ]
+  },
+  {
+    "id": "dell",
+    "name": "Dell",
+    "nameJa": "デル",
+    "country": "アメリカ",
+    "founded": 1984,
+    "hq": "テキサス州ラウンドロック",
+    "tagline": "カスタマイズ自在。自分だけの1台を作れる",
+    "overview": "アメリカの老舗PCメーカー。XPSはプレミアムデザインで人気、InspironはコスパPC、AlienwareはゲーミングPCの老舗ブランド。法人向けLatitudeも強い。",
+    "series": [
+      {
+        "name": "XPS",
+        "target": "クリエイター・ビジネスハイエンド",
+        "desc": "薄型プレミアムライン。OLED搭載モデルが充実。デザインが良くMacBook対抗",
+        "lines": [
+          "XPS 13",
+          "XPS 14",
+          "XPS 16"
+        ]
+      },
+      {
+        "name": "Inspiron",
+        "target": "一般ユーザー・学生",
+        "desc": "エントリー〜ミドルのコスパPC。価格帯が幅広く選びやすい",
+        "lines": [
+          "Inspiron 14",
+          "Inspiron 15",
+          "Inspiron 16"
+        ]
+      },
+      {
+        "name": "Alienware",
+        "target": "ゲーマー・ハイエンド",
+        "desc": "ゲーミングPCの老舗。独特のデザインで冷却性能が高い。価格は高め",
+        "lines": [
+          "Alienware x14",
+          "Alienware x16",
+          "Alienware m16"
+        ]
+      },
+      {
+        "name": "Latitude",
+        "target": "法人ユーザー",
+        "desc": "企業向けの堅牢ライン。管理機能・セキュリティが充実",
+        "lines": []
+      }
+    ],
+    "strengths": [
+      "XPSのOLEDディスプレイが最高品質",
+      "Alienwareの冷却設計が優秀",
+      "法人向けサポートが手厚い",
+      "デザインの高品質さ（XPSは特に）"
+    ],
+    "weaknesses": [
+      "XPSは価格が高め",
+      "Alienwareは重く分厚い",
+      "バッテリー持ちが平均的",
+      "初期設定のブロートウェアが多い"
+    ],
+    "recommend": "ディスプレイ品質を重視する人。Windowsでプレミアムデザインが欲しい人。ゲーミングPCにこだわりがある人。",
+    "ratings": {
+      "performance": 85,
+      "design": 90,
+      "keyboard": 78,
+      "display": 95,
+      "value": 72,
+      "support": 82
+    },
+    "featuredModels": [
+      "dell-xps-14",
+      "alienware-m16-r2"
+    ]
+  },
+  {
+    "id": "hp",
+    "name": "HP",
+    "nameJa": "HP（ヒューレット・パッカード）",
+    "country": "アメリカ",
+    "founded": 1939,
+    "hq": "カリフォルニア州パロアルト",
+    "tagline": "デザインとコスパの両立。見た目も性能も妥協しない",
+    "overview": "世界シェア上位のPCメーカー。SpectreはMacBook対抗のプレミアムライン、EnvyはコスパミドルハイPC、PavilionはコスパPC、OMENはゲーミングPC。幅広い価格帯を揃える。",
+    "series": [
+      {
+        "name": "Spectre",
+        "target": "プレミアムユーザー・ビジネス",
+        "desc": "HPの最高級ライン。薄型・OLED・プレミアム素材。デザインに力を入れている",
+        "lines": [
+          "Spectre x360 14",
+          "Spectre x360 16"
+        ]
+      },
+      {
+        "name": "Envy",
+        "target": "クリエイター・上位一般ユーザー",
+        "desc": "コスパミドルハイライン。Core Ultra搭載で薄型。Spectreより安くスペックは近い",
+        "lines": [
+          "Envy x360 13",
+          "Envy x360 15"
+        ]
+      },
+      {
+        "name": "Pavilion",
+        "target": "学生・コスパ重視",
+        "desc": "エントリーコスパPC。価格抑えめで基本性能は十分",
+        "lines": [
+          "Pavilion 14",
+          "Pavilion 15"
+        ]
+      },
+      {
+        "name": "OMEN",
+        "target": "ゲーマー",
+        "desc": "HPのゲーミングライン。冷却性能が高く、RTX搭載モデルが豊富",
+        "lines": [
+          "OMEN 16",
+          "OMEN Transcend 14"
+        ]
+      }
+    ],
+    "strengths": [
+      "SpectreはOLED品質が高い",
+      "2in1の完成度が高い（Spectre x360）",
+      "サポートが充実",
+      "幅広い価格帯で選びやすい"
+    ],
+    "weaknesses": [
+      "OMENは冷却が騒がしい",
+      "Spectreは価格が高い",
+      "Pavilionはプラスチック感あり"
+    ],
+    "recommend": "2in1 PCが欲しい人。Windowsでプレミアムデザインを探している人。幅広い予算に対応できる。",
+    "ratings": {
+      "performance": 82,
+      "design": 88,
+      "keyboard": 80,
+      "display": 88,
+      "value": 80,
+      "support": 85
+    },
+    "featuredModels": [
+      "hp-spectre-x360-14",
+      "hp-omen-16"
+    ]
+  },
+  {
+    "id": "asus",
+    "name": "ASUS",
+    "nameJa": "エイスース",
+    "country": "台湾",
+    "founded": 1989,
+    "hq": "台北",
+    "tagline": "コスパとゲーミングの二刀流。攻めた製品が多い",
+    "overview": "台湾の大手PCメーカー。Zenbookはプレミアム薄型、ROGはゲーミングのトップブランド、TUFはコスパゲーミング、VivoBookはエントリー。ゲーミング市場での存在感が特に大きい。",
+    "series": [
+      {
+        "name": "Zenbook",
+        "target": "クリエイター・ビジネスユーザー",
+        "desc": "プレミアム薄型ライン。OLED搭載モデル多数。デザインが洗練されている",
+        "lines": [
+          "Zenbook 14 OLED",
+          "Zenbook Pro 14",
+          "Zenbook Pro 16X"
+        ]
+      },
+      {
+        "name": "ROG",
+        "target": "ゲーマー・ハイエンド",
+        "desc": "Republic of Gamers。ゲーミングPCのプレミアムブランド。高リフレッシュレート・最上位GPU搭載",
+        "lines": [
+          "ROG Zephyrus G14",
+          "ROG Strix G16",
+          "ROG Flow X13"
+        ]
+      },
+      {
+        "name": "TUF Gaming",
+        "target": "コスパゲーマー",
+        "desc": "ゲーミングPCのコスパライン。ROGよりリーズナブルで性能は近い",
+        "lines": [
+          "TUF Gaming A15",
+          "TUF Gaming A16",
+          "TUF Gaming F15"
+        ]
+      },
+      {
+        "name": "VivoBook",
+        "target": "学生・一般",
+        "desc": "エントリー〜ミドルのコスパPC。カラーバリエーションが豊富",
+        "lines": []
+      }
+    ],
+    "strengths": [
+      "ROGはゲーミングで最高峰の評価",
+      "OLEDディスプレイのラインナップが豊富",
+      "デザインがスタイリッシュ（特にZenbook）",
+      "コスパゲーミングのTUFが充実"
+    ],
+    "weaknesses": [
+      "サポートが国内では弱め",
+      "ROGは高価",
+      "一部モデルで熱管理に課題あり"
+    ],
+    "recommend": "ゲーミングPC（特にROG/TUF）が欲しい人。OLEDディスプレイを重視する人。デザイン重視のクリエイター。",
+    "ratings": {
+      "performance": 90,
+      "design": 88,
+      "keyboard": 82,
+      "display": 92,
+      "value": 82,
+      "support": 72
+    },
+    "featuredModels": [
+      "asus-rog-zephyrus-g14",
+      "asus-zenbook-14-oled",
+      "asus-tuf-a15"
+    ]
+  },
+  {
+    "id": "microsoft",
+    "name": "Microsoft",
+    "nameJa": "マイクロソフト",
+    "country": "アメリカ",
+    "founded": 1975,
+    "hq": "ワシントン州レドモンド",
+    "tagline": "Windowsの生みの親が作る、純正PCの安心感",
+    "overview": "Windows開発元が作るPCブランド。Surface ProはタブレットPC、Surface LaptopはシンプルなノートPC。CopilotキーやAI機能との親和性が高く、ビジネスシーンで人気。",
+    "series": [
+      {
+        "name": "Surface Laptop",
+        "target": "ビジネスユーザー・学生",
+        "desc": "シンプルで完成度の高いノートPC。キーボードとディスプレイの品質が高い",
+        "lines": [
+          "Surface Laptop 7",
+          "Surface Laptop Go 3"
+        ]
+      },
+      {
+        "name": "Surface Pro",
+        "target": "タブレット兼用ユーザー",
+        "desc": "タブレット+キーボードカバーで2in1として使える。外出先で描いたり書いたりしたい人向け",
+        "lines": [
+          "Surface Pro 11"
+        ]
+      },
+      {
+        "name": "Surface Studio",
+        "target": "クリエイター",
+        "desc": "大型ディスプレイの一体型デスクトップ。イラスト・デザイン向け",
+        "lines": []
+      }
+    ],
+    "strengths": [
+      "WindowsとのOS統合が最高",
+      "ディスプレイの解像度・発色が良い",
+      "タッチ操作・ペン入力が最高峰",
+      "コンパクトで持ち運びやすい"
+    ],
+    "weaknesses": [
+      "価格対性能比がやや低い",
+      "ポート数が少ない",
+      "ゲーム用途には向かない"
+    ],
+    "recommend": "タブレットとPCを一台で済ませたい人。Officeや法人IT環境に最適。ペン入力で絵を描く人。",
+    "ratings": {
+      "performance": 78,
+      "design": 92,
+      "keyboard": 85,
+      "display": 90,
+      "value": 68,
+      "support": 88
+    },
+    "featuredModels": [
+      "surface-laptop-7",
+      "surface-pro-11"
+    ]
+  },
+  {
+    "id": "mouse",
+    "name": "mouse computer",
+    "nameJa": "マウスコンピューター",
+    "country": "日本",
+    "founded": 1993,
+    "hq": "東京都千代田区",
+    "tagline": "国産PCブランド",
+    "overview": "国内生産・国内サポートにこだわる日本メーカー。G-Tuneはゲーミング特化、DAIVはクリエイター特化の高品質BTOブランド。カスタマイズ幅が広く、サポートが日本語で手厚い。",
+    "series": [
+      {
+        "name": "G-Tune",
+        "target": "ゲーマー",
+        "desc": "ゲーミングPC専門ライン。RTX搭載モデルが豊富でコスパが良い",
+        "lines": [
+          "G-Tune E5",
+          "G-Tune P6"
+        ]
+      },
+      {
+        "name": "DAIV",
+        "target": "クリエイター",
+        "desc": "動画編集・CGレンダリング向け。高性能CPU+GPU構成で配信・クリエイター向け",
+        "lines": [
+          "DAIV Z4",
+          "DAIV Z6"
+        ]
+      },
+      {
+        "name": "m-Book",
+        "target": "一般ユーザー",
+        "desc": "標準ノートPCライン。日常用途に十分でサポートが安心",
+        "lines": []
+      }
+    ],
+    "strengths": [
+      "国内生産・国内サポート（電話対応）",
+      "BTOカスタマイズが広い",
+      "納期が最短3〜5営業日",
+      "コスパが良い（直販のみのため中間マージンなし）"
+    ],
+    "weaknesses": [
+      "直販のみで家電量販店では買えない",
+      "デザインは地味",
+      "海外では保証対応なし"
+    ],
+    "recommend": "日本語サポートを重視する人。BTOでパーツ選んで買いたい人。国産ブランドにこだわる人。",
+    "ratings": {
+      "performance": 85,
+      "design": 70,
+      "keyboard": 75,
+      "display": 78,
+      "value": 90,
+      "support": 95
+    },
+    "featuredModels": [
+      "g-tune-e5",
+      "daiv-z4"
+    ]
+  },
+  {
+    "id": "dospara",
+    "name": "Dospara",
+    "nameJa": "ドスパラ",
+    "country": "日本",
+    "founded": 1992,
+    "hq": "東京都台東区",
+    "tagline": "パソコン専門店",
+    "overview": "国内最大手の自作PC・BTOショップ。GALLERIAはゲーミングPC、raytrekはクリエイター向けBTO。秋葉原などに実店舗もあり、自作パーツ購入も可能。",
+    "series": [
+      {
+        "name": "GALLERIA",
+        "target": "ゲーマー",
+        "desc": "ゲーミングPCのコスパBTOブランド。XA7C-R47（10万円台でRTX4070搭載）が人気",
+        "lines": [
+          "GALLERIA XA7C-R47",
+          "GALLERIA ZA9C-R49"
+        ]
+      },
+      {
+        "name": "raytrek",
+        "target": "クリエイター",
+        "desc": "動画編集・CGレンダリング向けBTO。GPUカスタムが豊富",
+        "lines": []
+      }
+    ],
+    "strengths": [
+      "ゲーミングPCのコスパNo.1水準",
+      "実店舗で直接サポート受けられる",
+      "自作パーツも同時購入できる",
+      "BTOカスタムが豊富"
+    ],
+    "weaknesses": [
+      "品質管理にムラあり（ユーザーレビューに注意）",
+      "デザインは派手め（好みが分かれる）",
+      "サポートは混みやすい"
+    ],
+    "recommend": "コスパ最優先でゲーミングPCを買いたい人。秋葉原など実店舗でサポートを受けたい人。",
+    "ratings": {
+      "performance": 88,
+      "design": 72,
+      "keyboard": 70,
+      "display": 75,
+      "value": 95,
+      "support": 78
+    },
+    "featuredModels": [
+      "galleria-xa7c-r47"
+    ]
+  },
+  {
+    "id": "pckosho",
+    "name": "PC Koubou",
+    "nameJa": "パソコン工房",
+    "country": "日本",
+    "founded": 1993,
+    "hq": "大阪府大阪市",
+    "tagline": "パソコン工房",
+    "overview": "ユニットコム系列の大手BTOメーカー。LEVEL∞はゲーミングPC、LUVBOOKは一般向けライン。全国に実店舗があり、購入後のサポートがしやすい。",
+    "series": [
+      {
+        "name": "LEVEL∞",
+        "target": "ゲーマー",
+        "desc": "ゲーミングPCのBTOライン。RTX搭載でコスパ良好。カスタム幅も広い",
+        "lines": []
+      },
+      {
+        "name": "LUVBOOK",
+        "target": "一般ユーザー",
+        "desc": "日常用途向けBTOノートPC。コスパ重視のエントリーモデルが多い",
+        "lines": []
+      }
+    ],
+    "strengths": [
+      "全国に実店舗がある（約50店舗）",
+      "コスパが良い",
+      "BTOカスタムができる",
+      "日本語サポート"
+    ],
+    "weaknesses": [
+      "デザインは平凡",
+      "Webサイトが使いにくい",
+      "品質はドスパラと同水準"
+    ],
+    "recommend": "近くに店舗があって実物を見てから買いたい人。コスパゲーミングPCを探している人。",
+    "ratings": {
+      "performance": 85,
+      "design": 68,
+      "keyboard": 72,
+      "display": 75,
+      "value": 92,
+      "support": 82
+    },
+    "featuredModels": []
+  },
+  {
+    "id": "msi",
+    "name": "MSI",
+    "nameJa": "エムエスアイ",
+    "country": "台湾",
+    "founded": 1986,
+    "hq": "台北",
+    "tagline": "Gaming. Content Creation. Business & Productivity.",
+    "overview": "台湾のゲーミングPC・パーツ専門メーカー。ゲーミングノートとゲーミングデスクトップで強い存在感。GPUパーツでも有名。CreatorシリーズはクリエイターPC。",
+    "series": [
+      {
+        "name": "Titan / Raider",
+        "target": "ゲーマー・ハイエンド",
+        "desc": "ゲーミングPCのハイエンドライン。最上位GPU搭載・高リフレッシュレートディスプレイ",
+        "lines": []
+      },
+      {
+        "name": "Stealth / Sword",
+        "target": "ゲーマー・ミドル",
+        "desc": "スリムなゲーミングノート。持ち運べるゲーミングPCとして人気",
+        "lines": []
+      },
+      {
+        "name": "Creator",
+        "target": "クリエイター",
+        "desc": "動画編集・CGレンダリング向けのクリエイターライン",
+        "lines": []
+      }
+    ],
+    "strengths": [
+      "ゲーミングPC性能が高い",
+      "冷却設計が優秀",
+      "ゲーム向け機能（Per-Key RGB等）が充実"
+    ],
+    "weaknesses": [
+      "価格が高め",
+      "バッテリー持ちが短い",
+      "デザインがゲーミング向けで偏り気味"
+    ],
+    "recommend": "ゲーミングPCを性能重視で選びたい人。MSIのGPUと統合して使いたい人。",
+    "ratings": {
+      "performance": 92,
+      "design": 80,
+      "keyboard": 78,
+      "display": 88,
+      "value": 75,
+      "support": 72
+    },
+    "featuredModels": []
+  },
+  {
+    "id": "acer",
+    "name": "Acer",
+    "nameJa": "エイサー",
+    "country": "台湾",
+    "founded": 1976,
+    "hq": "台北",
+    "tagline": "Explore Beyond Limits",
+    "overview": "台湾の大手PCメーカー。コスパに優れたラインナップが特徴。SwiftはモバイルPC、AspireはコスパPC、PredatorはハイエンドゲーミングPC、Nitroはコスパゲーミング。",
+    "series": [
+      {
+        "name": "Swift",
+        "target": "モバイル・ビジネス",
+        "desc": "軽量薄型モバイルPC。Swift X はdGPU搭載でクリエイター向けも",
+        "lines": [
+          "Swift Go 14",
+          "Swift X 14"
+        ]
+      },
+      {
+        "name": "Aspire",
+        "target": "一般・学生",
+        "desc": "エントリーコスパPC。5万〜8万円台で基本性能は十分",
+        "lines": []
+      },
+      {
+        "name": "Nitro",
+        "target": "コスパゲーマー",
+        "desc": "コスパゲーミングPC。Predatorより安くゲーミング性能は近い",
+        "lines": [
+          "Nitro V 15",
+          "Nitro V 16"
+        ]
+      },
+      {
+        "name": "Predator",
+        "target": "ゲーマー・ハイエンド",
+        "desc": "ゲーミングPCハイエンドライン。Helios・Tritonが代表機種",
+        "lines": []
+      }
+    ],
+    "strengths": [
+      "コスパが業界トップ水準",
+      "Nitroはゲーミングコスパが良い",
+      "幅広い価格帯"
+    ],
+    "weaknesses": [
+      "品質感がやや低め",
+      "デザインが平凡",
+      "サポートの評判がまちまち"
+    ],
+    "recommend": "予算を抑えてPCを買いたい人。コスパゲーミングPCを探している人（NitroはRTX搭載で7〜8万から）。",
+    "ratings": {
+      "performance": 82,
+      "design": 72,
+      "keyboard": 72,
+      "display": 78,
+      "value": 93,
+      "support": 70
+    },
+    "featuredModels": [
+      "acer-nitro-v15"
+    ]
+  },
+  {
+    "id": "dynabook",
+    "name": "dynabook",
+    "nameJa": "ダイナブック",
+    "country": "日本",
+    "founded": 1989,
+    "hq": "東京都江東区",
+    "tagline": "はたらく喜びを、すべての人へ",
+    "overview": "東芝のPC事業が独立したブランド（現在はSharp子会社）。国内向け品質・サポートに定評があり、特に法人・シニア向けに支持される。耐久テスト基準が高い。",
+    "series": [
+      {
+        "name": "dynabook G",
+        "target": "ビジネス・モバイル",
+        "desc": "超軽量ビジネスPCライン。700g台の超軽量モデルもある",
+        "lines": [
+          "dynabook G83",
+          "dynabook G6"
+        ]
+      },
+      {
+        "name": "dynabook X",
+        "target": "ビジネス",
+        "desc": "標準ビジネスPCライン。安定性・サポートを重視",
+        "lines": []
+      },
+      {
+        "name": "dynabook AZ",
+        "target": "一般・シニア",
+        "desc": "コンシューマー向けライン。大きめフォントや使いやすいUI設定が可能",
+        "lines": []
+      }
+    ],
+    "strengths": [
+      "国内向けサポートが手厚い",
+      "超軽量モデルがある（700g台）",
+      "MIL規格の耐久テスト基準が高い",
+      "日本語キーボードの品質が良い"
+    ],
+    "weaknesses": [
+      "価格が高め（品質の対価）",
+      "ゲーム用途には向かない",
+      "デザインが保守的"
+    ],
+    "recommend": "国内サポートを重視するビジネスマン。軽量PCで出張が多い人。初心者・シニアで丁寧なサポートが必要な人。",
+    "ratings": {
+      "performance": 75,
+      "design": 75,
+      "keyboard": 82,
+      "display": 78,
+      "value": 65,
+      "support": 95
+    },
+    "featuredModels": []
+  },
+  {
+    "id": "frontier",
+    "name": "FRONTIER",
+    "nameJa": "フロンティア",
+    "country": "日本",
+    "founded": 1995,
+    "hq": "福岡県福岡市",
+    "tagline": "あなたの欲しいがきっと見つかる",
+    "overview": "ヤマダデンキグループの日本製BTOメーカー。コスパが良く、ゲーミングPCから一般PCまで幅広いラインナップ。ヤマダ電機の実店舗でサポートが受けられる点が強み。",
+    "series": [
+      {
+        "name": "FRGNG",
+        "target": "ゲーマー",
+        "desc": "ゲーミングPCラインナップ。RTX搭載でコスパ良好",
+        "lines": []
+      },
+      {
+        "name": "FRNZH",
+        "target": "一般ユーザー",
+        "desc": "一般用途向けBTOノートPC",
+        "lines": []
+      }
+    ],
+    "strengths": [
+      "ヤマダ電機サポートが使える",
+      "コスパが良い",
+      "国産BTOブランド"
+    ],
+    "weaknesses": [
+      "知名度がやや低い",
+      "デザインは平凡"
+    ],
+    "recommend": "ヤマダ電機で購入・サポートを一括にしたい人。コスパゲーミングPCを探している人。",
+    "ratings": {
+      "performance": 83,
+      "design": 65,
+      "keyboard": 70,
+      "display": 72,
+      "value": 92,
+      "support": 80
+    },
+    "featuredModels": []
+  },
+  {
+    "id": "nec",
+    "name": "NEC",
+    "nameJa": "日本電気",
+    "country": "日本",
+    "founded": 1899,
+    "hq": "東京都港区",
+    "tagline": "日本品質のサポートと軽さ。初心者にいちばん優しいメーカー",
+    "overview": "日本電気株式会社（NEC）のPC部門が手がけるLAVIEシリーズ。NEXTREMEは超軽量・長時間バッテリーを極限まで追求したフラッグシップモバイルPC。国内設計・国内品質で法人・ビジネスユーザーに定評がある。",
+    "series": [
+      {
+        "name": "LAVIE NEXTREME",
+        "target": "ビジネス・モバイル最重視",
+        "desc": "994gでバッテリー20時間。MIL規格・カーボンボディの最強モバイルフラッグシップ",
+        "lines": [
+          "LAVIE NEXTREME Carbon",
+          "LAVIE NEXTREME Infinity"
+        ]
+      },
+      {
+        "name": "LAVIE Pro",
+        "target": "ビジネスユーザー",
+        "desc": "高品質ビジネスPCライン。軽量・長バッテリーを重視",
+        "lines": []
+      },
+      {
+        "name": "LAVIE Note",
+        "target": "一般・ホーム",
+        "desc": "家庭向けスタンダードライン",
+        "lines": []
+      }
+    ],
+    "strengths": [
+      "業界最長水準のバッテリー持ち（20時間）",
+      "超軽量設計（NEXTREME Carbon は994g）",
+      "MIL規格準拠の堅牢性",
+      "日本製・日本語サポートが充実"
+    ],
+    "weaknesses": [
+      "価格が高め（フラッグシップは28万円〜）",
+      "ゲームやクリエイティブ用途には不向き",
+      "直販中心で量販店在庫が少ない"
+    ],
+    "recommend": "とにかく軽くて長時間使えるPCが欲しいビジネスマン。国産ブランドにこだわる人。出張・移動が多い人。",
+    "ratings": {
+      "performance": 80,
+      "design": 85,
+      "keyboard": 85,
+      "display": 80,
+      "value": 65,
+      "support": 92
+    },
+    "featuredModels": [
+      "nec-lavie-nextreme"
+    ]
+  }
+]
