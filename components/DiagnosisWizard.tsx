@@ -555,26 +555,26 @@ export default function DiagnosisWizard({ laptops }: { laptops: Laptop[] }) {
     <div ref={ref} className="max-w-2xl mx-auto scroll-mt-16">
       {/* Progress */}
       <div className="mb-6">
-        <div className="flex justify-between text-xs text-gray-500 mb-1.5">
+        <div className="pc-wizard-step-label">
           <span>{qDef.step === 1 ? "STEP 1 — あなたについて" : qDef.step === 2 ? "STEP 2 — 使い方の詳細" : "STEP 3 — 予算・優先度"}</span>
           <span>Q{curIdx + 1} / {queue.length}</span>
         </div>
-        <div className="w-full bg-gray-100 rounded-full h-2">
-          <div className="bg-blue-600 h-2 rounded-full transition-all duration-500" style={{ width: `${pct}%` }} />
+        <div className="pc-progress-bar">
+          <div className="pc-progress-fill" style={{ width: `${pct}%` }} />
         </div>
       </div>
 
       {/* Mac notice */}
       {showMacNote && (
-        <div className="mb-4 p-4 bg-amber-50 border border-amber-200 rounded-xl text-sm">
-          <p className="font-bold text-amber-800">⚠️ 選択した用途にはMacが必要です</p>
-          <p className="text-amber-700 mt-0.5">iOS開発（Xcode）またはFinal Cut ProはMac専用のため、Mac以外の選択肢はフィルタリングされます。</p>
+        <div className="pc-mac-alert mb-4">
+          <p className="pc-mac-alert-title">⚠️ 選択した用途にはMacが必要です</p>
+          <p className="pc-mac-alert-body">iOS開発（Xcode）またはFinal Cut ProはMac専用のため、Mac以外の選択肢はフィルタリングされます。</p>
         </div>
       )}
 
-      <h2 className="text-xl font-bold text-gray-900 mb-1">{qDef.question}</h2>
+      <h2 className="pc-wizard-question">{qDef.question}</h2>
       {qDef.type === "multiple" && (
-        <p className="text-xs text-blue-600 mb-4">
+        <p className="pc-wizard-multi-hint">
           複数選択できます{qDef.maxSelect ? `（最大${qDef.maxSelect}つ）` : ""}
           {pending.length > 0 ? ` — ${pending.length}つ選択中` : ""}
         </p>
@@ -586,25 +586,22 @@ export default function DiagnosisWizard({ laptops }: { laptops: Laptop[] }) {
           const maxed = !!(qDef.type === "multiple" && qDef.maxSelect && pending.length >= qDef.maxSelect && !pending.includes(opt.id));
           return (
             <button
+              type="button"
               key={opt.id}
               disabled={maxed}
+              data-selected={sel}
+              data-disabled={maxed}
               onClick={() => !maxed && (qDef.type === "multiple" ? toggle(opt.id) : handleSingle(opt.id))}
-              className={`w-full text-left p-4 rounded-xl border-2 transition-all ${
-                sel    ? "border-blue-500 bg-blue-50 shadow-sm"
-                : maxed ? "border-gray-100 opacity-40 cursor-not-allowed"
-                : "border-gray-200 hover:border-blue-400 hover:bg-blue-50/40"
-              }`}
+              className="pc-opt-card"
             >
-              <div className="flex items-start gap-3">
-                {qDef.type === "multiple" && (
-                  <div className={`mt-0.5 w-5 h-5 rounded border-2 shrink-0 flex items-center justify-center ${sel ? "border-blue-500 bg-blue-500" : "border-gray-300"}`}>
-                    {sel && <span className="text-white text-xs font-bold">✓</span>}
-                  </div>
-                )}
-                <div>
-                  <p className="font-semibold text-gray-900 text-sm">{opt.label}</p>
-                  {opt.desc && <p className="text-xs text-gray-500 mt-0.5">{opt.desc}</p>}
+              {qDef.type === "multiple" && (
+                <div className="pc-opt-check">
+                  {sel && <span className="pc-opt-check-mark">✓</span>}
                 </div>
+              )}
+              <div>
+                <p className="pc-opt-text">{opt.label}</p>
+                {opt.desc && <p className="pc-opt-desc">{opt.desc}</p>}
               </div>
             </button>
           );
@@ -613,23 +610,17 @@ export default function DiagnosisWizard({ laptops }: { laptops: Laptop[] }) {
 
       {qDef.type === "multiple" && (
         <div className="flex gap-3">
-          <button
-            onClick={handleMultiNext}
-            disabled={pending.length === 0 && !qDef.optional}
-            className="flex-1 py-3 bg-blue-600 text-white font-bold rounded-xl hover:bg-blue-700 disabled:opacity-40 disabled:cursor-not-allowed transition-colors"
-          >
+          <button type="button" onClick={handleMultiNext} disabled={pending.length === 0 && !qDef.optional} className="flex-1 pc-wizard-next">
             次へ →
           </button>
           {qDef.optional && (
-            <button onClick={() => advance(ans)} className="px-4 py-3 border border-gray-200 text-gray-500 text-sm rounded-xl hover:bg-gray-50">
-              特になし
-            </button>
+            <button type="button" onClick={() => advance(ans)} className="pc-wizard-skip">特になし</button>
           )}
         </div>
       )}
 
       {hist.length > 0 && (
-        <button onClick={goBack} className="mt-4 text-sm text-gray-400 hover:text-gray-600">
+        <button type="button" onClick={goBack} className="pc-wizard-back">
           ← 前の質問に戻る
         </button>
       )}
@@ -693,25 +684,25 @@ function Result({ ans: a, laptops, onReset }: { ans: Answers; laptops: Laptop[];
   return (
     <div>
       {/* Spec card */}
-      <div className="bg-gradient-to-br from-blue-50 to-indigo-50 border border-blue-100 rounded-2xl p-6 mb-8">
-        <p className="text-xs font-bold text-blue-600 uppercase tracking-wide mb-3">🎯 診断結果</p>
+      <div className="pc-result-card">
+        <p className="pc-result-kicker">🎯 診断結果</p>
 
         <div className="flex flex-wrap gap-2 mb-5">
-          {a.q1 && <span className="bg-white border border-blue-200 text-blue-800 text-sm px-3 py-1 rounded-full">{USER_LBL[a.q1] ?? a.q1}</span>}
-          {a.q4.map(u => <span key={u} className="bg-blue-600 text-white text-sm px-3 py-1 rounded-full">{USE_LBL[u] ?? u}</span>)}
-          {(a.q2.includes("commute") || a.q2.includes("cafe")) && <span className="bg-orange-100 text-orange-700 text-sm px-3 py-1 rounded-full">外出して使う</span>}
+          {a.q1 && <span className="pc-result-tag-user">{USER_LBL[a.q1] ?? a.q1}</span>}
+          {a.q4.map(u => <span key={u} className="pc-result-tag-use">{USE_LBL[u] ?? u}</span>)}
+          {(a.q2.includes("commute") || a.q2.includes("cafe")) && <span className="pc-result-tag-mobile">外出して使う</span>}
         </div>
 
         {isUnknownBudget && (
-          <div className="mb-4 p-3 bg-blue-100 rounded-xl text-sm">
-            <span className="font-semibold text-blue-800">推奨予算目安：</span>
-            <span className="text-blue-700 ml-1">{recBudget(spec)}</span>
+          <div className="pc-result-budget-hint">
+            <span className="pc-result-budget-label">推奨予算目安：</span>
+            <span>{recBudget(spec)}</span>
           </div>
         )}
 
         <div className="grid md:grid-cols-2 gap-5">
           <div>
-            <p className="text-xs font-semibold text-gray-500 mb-3">推奨スペック</p>
+            <p className="pc-result-spec-heading">推奨スペック</p>
             <ul className="space-y-2 text-sm">
               {([
                 ["OS", osLabel],
@@ -723,9 +714,9 @@ function Result({ ans: a, laptops, onReset }: { ans: Answers; laptops: Laptop[];
                 spec.refreshRate > 60 ? ["画面", `${spec.refreshRate}Hz以上`] : null,
                 spec.needsPen ? ["入力", "ペン対応必須"] : null,
               ] as ([string,string]|null)[]).filter((x): x is [string,string] => x !== null).map(([k,v]) => (
-                <li key={k} className="flex gap-2 items-baseline">
-                  <span className="w-14 text-gray-400 shrink-0 text-xs">{k}</span>
-                  <span className={`font-semibold ${k === "RAM" ? "text-blue-700" : "text-gray-900"}`}>{v}</span>
+                <li key={k} className="pc-result-spec-row">
+                  <span className="pc-result-spec-key">{k}</span>
+                  <span className={k === "RAM" ? "pc-result-spec-val-green" : "pc-result-spec-val"}>{v}</span>
                 </li>
               ))}
             </ul>
@@ -733,12 +724,12 @@ function Result({ ans: a, laptops, onReset }: { ans: Answers; laptops: Laptop[];
 
           {reasons.length > 0 && (
             <div>
-              <p className="text-xs font-semibold text-gray-500 mb-3">💡 なぜこのスペック？</p>
+              <p className="pc-result-spec-heading">💡 なぜこのスペック？</p>
               <ul className="space-y-2">
                 {reasons.slice(0, 5).map((r, i) => (
-                  <li key={i} className="text-xs leading-snug">
-                    <span className="font-bold text-blue-700">{r.label}：</span>
-                    <span className="text-gray-600">{r.why}</span>
+                  <li key={i} className="pc-result-reason">
+                    <span className="pc-result-reason-label">{r.label}：</span>
+                    <span className="pc-result-reason-body">{r.why}</span>
                   </li>
                 ))}
               </ul>
@@ -749,58 +740,58 @@ function Result({ ans: a, laptops, onReset }: { ans: Answers; laptops: Laptop[];
 
       {/* Desktop notice */}
       {a.q10 === "desktop" && (
-        <div className="bg-gray-50 border border-gray-200 rounded-2xl p-5 mb-8 flex flex-col sm:flex-row items-start sm:items-center gap-4">
-          <p className="text-2xl shrink-0">🖥</p>
+        <div className="pc-result-desktop-notice">
+          <p className="pc-result-desktop-icon">🖥</p>
           <div className="flex-1">
-            <p className="font-bold text-gray-900">デスクトップPCを希望の場合</p>
-            <p className="text-sm text-gray-600 mt-0.5">同予算でノートPCより高性能なデスクトップが作れます。BTOメーカーや自作PCをご検討ください。</p>
+            <p className="pc-result-desktop-title">デスクトップPCを希望の場合</p>
+            <p className="pc-result-desktop-body">同予算でノートPCより高性能なデスクトップが作れます。BTOメーカーや自作PCをご検討ください。</p>
           </div>
           <div className="flex gap-2 shrink-0">
-            <a href="/jisaku" className="px-4 py-2 bg-blue-600 text-white font-bold rounded-full text-xs hover:bg-blue-700">自作PCガイド</a>
-            <a href="/maker/dospara" className="px-4 py-2 border border-gray-300 text-gray-700 rounded-full text-xs hover:bg-gray-50">BTOメーカー</a>
+            <a href="/jisaku" className="pc-result-desktop-btn-primary">自作PCガイド</a>
+            <a href="/maker/dospara" className="pc-result-desktop-btn-outline">BTOメーカー</a>
           </div>
         </div>
       )}
 
       {/* Ranked laptops */}
-      <h2 className="text-xl font-bold mb-5">
+      <h2 className="pc-result-ranked-title">
         {isFallback && ranked.length > 0 ? "条件に近いおすすめPC" : `あなた専用おすすめPC — トップ${ranked.length}選`}
       </h2>
       {isFallback && ranked.length > 0 && (
-        <div className="mb-5 p-4 bg-amber-50 border border-amber-200 rounded-xl text-sm text-amber-800">
+        <div className="pc-result-fallback-notice">
           ⚠️ ご指定の条件を完全に満たすPCが現在のラインナップにありません。条件を少し緩めた近い候補を表示しています。
         </div>
       )}
       {ranked.length === 0 ? (
-        <div className="text-center py-12 bg-gray-50 rounded-2xl">
+        <div className="pc-result-empty">
           <p className="text-3xl mb-3">😓</p>
-          <p className="text-gray-700 font-semibold">条件に合うPCが見つかりませんでした</p>
-          <p className="text-sm text-gray-500 mt-1">予算を増やすか、条件を変えてもう一度お試しください</p>
+          <p className="pc-result-empty-title">条件に合うPCが見つかりませんでした</p>
+          <p className="pc-result-empty-sub">予算を増やすか、条件を変えてもう一度お試しください</p>
         </div>
       ) : (
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
           {ranked.map((l, i) => (
             <div key={l.id} className="relative pt-3">
-              {i === 0 && <div className="absolute top-0 left-3 z-10 bg-yellow-400 text-gray-900 text-xs font-bold px-2 py-0.5 rounded-full">🥇 最もおすすめ</div>}
-              {i === 1 && <div className="absolute top-0 left-3 z-10 bg-gray-300 text-gray-800 text-xs font-bold px-2 py-0.5 rounded-full">🥈 2位</div>}
-              {i === 2 && <div className="absolute top-0 left-3 z-10 bg-orange-300 text-gray-800 text-xs font-bold px-2 py-0.5 rounded-full">🥉 3位</div>}
+              {i === 0 && <div className="pc-rank-1">🥇 最もおすすめ</div>}
+              {i === 1 && <div className="pc-rank-2">🥈 2位</div>}
+              {i === 2 && <div className="pc-rank-3">🥉 3位</div>}
               <LaptopCard laptop={l} />
             </div>
           ))}
         </div>
       )}
 
-      <div className="text-center mt-8 flex flex-col items-center gap-3">
+      <div className="pc-result-actions">
         <a
           href={`https://twitter.com/intent/tweet?text=${encodeURIComponent("AIがぴったりのPCをおすすめしてくれた🎯\nあなたも3分で分かる👇")}&url=${encodeURIComponent("https://pickpc.vercel.app")}&hashtags=PickPC,PC選び,AI診断`}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 px-5 py-2.5 bg-black text-white text-sm font-medium rounded-full hover:bg-gray-800 transition-colors"
+          className="pc-result-share-btn"
         >
           <svg viewBox="0 0 24 24" className="w-4 h-4 fill-current" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
           Xでシェアする
         </a>
-        <button onClick={onReset} className="px-6 py-2.5 border border-gray-300 rounded-full text-gray-700 hover:bg-gray-50 text-sm transition-colors">
+        <button type="button" onClick={onReset} className="pc-result-reset-btn">
           ← もう一度診断する
         </button>
       </div>
