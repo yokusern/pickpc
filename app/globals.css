@@ -3,6 +3,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --pc-accent: #e2a84b;
+  --pc-dark: #111218;
   color-scheme: light;
 }
 
@@ -13,15 +15,119 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ── Hero ── */
+.pc-hero {
+  background: #111218;
+  padding: 64px 24px 56px;
+}
+.pc-hero-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.pc-hero-eyebrow {
+  color: #e2a84b;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  margin-bottom: 16px;
+}
+.pc-hero-h1 {
+  font-size: clamp(38px, 7vw, 72px);
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  line-height: 1.07;
+  color: #f2ede6;
+  margin-bottom: 20px;
+}
+.pc-hero-h1 .pc-accent { color: #e2a84b; }
+.pc-hero-sub {
+  color: #8c8880;
+  font-size: 17px;
+  line-height: 1.7;
+  max-width: 540px;
+  margin-bottom: 36px;
+}
+.pc-hero-btns {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.pc-btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 28px;
+  background: #e2a84b;
+  color: #111218;
+  font-size: 15px;
+  font-weight: 800;
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.2), 0 0 0 1px rgba(0,0,0,0.15), 0 2px 8px rgba(0,0,0,0.2);
+  transition: all 0.2s cubic-bezier(0.22,1,0.36,1);
+}
+.pc-btn-primary:hover { background: #c9922e; transform: translateY(-1px); }
+.pc-btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 28px;
+  background: transparent;
+  color: #a89f96;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 10px;
+  border: 1.5px solid rgba(255,255,255,0.12);
+  text-decoration: none;
+  transition: all 0.2s;
+}
+.pc-btn-secondary:hover { border-color: rgba(255,255,255,0.24); color: #f2ede6; }
+.pc-hero-note {
+  font-size: 11px;
+  color: #4a4740;
+  margin-top: 20px;
+}
+
+/* ── Site-wide link / accent color ── */
+.pc-link {
+  color: #c9922e;
+  text-decoration: none;
+  font-size: 14px;
+}
+.pc-link:hover { text-decoration: underline; }
+
+/* ── Card hover accent ── */
+.pc-card-hover {
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.pc-card-hover:hover { border-color: #c9922e !important; }
+
+/* ── Badge ── */
+.pc-badge {
+  display: inline-block;
+  font-size: 12px;
+  background: rgba(226,168,75,0.12);
+  color: #c9922e;
+  padding: 2px 8px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+/* ── Tinted section background ── */
+.pc-section-tint {
+  background: #f7f5f0;
+}
+
+/* ── DIY CTA section ── */
+.pc-diy-label {
+  color: #e2a84b;
+  font-weight: 600;
+  margin-bottom: 8px;
 }

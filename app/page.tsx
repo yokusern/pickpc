@@ -42,32 +42,26 @@ export default function HomePage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-gradient-to-br from-blue-50 via-white to-indigo-50 py-16 px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <p className="text-blue-600 font-semibold text-sm mb-3">PC選びを、もっとシンプルに</p>
-          <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4 leading-tight">
-            あなたに最適なPCが<br className="hidden md:block" />
-            <span className="text-blue-600">3分</span>でわかる
+      <section className="pc-hero">
+        <div className="pc-hero-inner">
+          <p className="pc-hero-eyebrow">PC診断 · 比較 · 自作ガイド</p>
+          <h1 className="pc-hero-h1">
+            目的と予算を選ぶだけ。<br />
+            <span className="pc-accent">最適なPC</span>が決まる。
           </h1>
-          <p className="text-gray-600 text-lg mb-8 max-w-2xl mx-auto">
-            ゲーム・仕事・動画編集・学業。目的・予算・使い方を選ぶだけで、
-            本当に合うPCをズバリ提案します。
+          <p className="pc-hero-sub">
+            ゲーム・開発・動画編集・学業。用途と予算から3分で診断。
+            MacBook・ThinkPad・ゲーミングPCを徹底比較。
           </p>
-          <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <Link
-              href="/shindan"
-              className="px-8 py-4 bg-blue-600 text-white font-bold rounded-full text-lg hover:bg-blue-700 transition-colors shadow-lg shadow-blue-200"
-            >
+          <div className="pc-hero-btns">
+            <Link href="/shindan" className="pc-btn-primary">
               無料でPC診断をする →
             </Link>
-            <Link
-              href="/category/gaming"
-              className="px-8 py-4 border-2 border-gray-300 text-gray-700 font-bold rounded-full text-lg hover:border-gray-400 transition-colors"
-            >
+            <Link href="/category/gaming" className="pc-btn-secondary">
               カテゴリから探す
             </Link>
           </div>
-          <p className="text-xs text-gray-400 mt-4">バナー広告なし・アカウント登録不要・Amazonアソシエイトリンクあり</p>
+          <p className="pc-hero-note">バナー広告なし · 登録不要 · Amazonアソシエイトリンクあり</p>
         </div>
       </section>
 
@@ -79,7 +73,7 @@ export default function HomePage() {
             <Link
               key={c.id}
               href={c.href}
-              className="flex flex-col items-center gap-2 p-4 bg-white border border-gray-200 rounded-xl hover:border-blue-400 hover:shadow-sm transition-all"
+              className="flex flex-col items-center gap-2 p-4 bg-white border border-gray-200 rounded-xl hover:shadow-sm transition-all pc-card-hover"
             >
               <span className="text-2xl">{c.icon}</span>
               <span className="text-xs font-medium text-gray-700">{c.label}</span>
@@ -103,7 +97,7 @@ export default function HomePage() {
       <section className="max-w-6xl mx-auto px-4 py-14">
         <div className="flex items-center justify-between mb-6">
           <h2 className="text-2xl font-bold">人気のおすすめPC</h2>
-          <Link href="/category" className="text-sm text-blue-600 hover:underline">すべて見る →</Link>
+          <Link href="/category" className="pc-link">すべて見る →</Link>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {popularLaptops.map((l) => (
@@ -113,18 +107,18 @@ export default function HomePage() {
       </section>
 
       {/* Makers Section */}
-      <section className="bg-gray-50 py-14 px-4">
+      <section className="pc-section-tint py-14 px-4">
         <div className="max-w-6xl mx-auto">
           <div className="flex items-center justify-between mb-6">
             <h2 className="text-2xl font-bold">メーカー図鑑</h2>
-            <Link href="/maker" className="text-sm text-blue-600 hover:underline">全メーカー見る →</Link>
+            <Link href="/maker" className="pc-link">全メーカー見る →</Link>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-3">
             {featuredMakers.map((m) => (
               <Link
                 key={m.id}
                 href={`/maker/${m.id}`}
-                className="bg-white border border-gray-200 rounded-xl p-4 text-center hover:border-blue-400 hover:shadow-sm transition-all"
+                className="bg-white border border-gray-200 rounded-xl p-4 text-center hover:shadow-sm transition-all pc-card-hover"
               >
                 <p className="font-bold text-sm text-gray-900">{m.name}</p>
                 <p className="text-[11px] text-gray-500 mt-1 leading-tight line-clamp-2">{m.tagline}</p>
@@ -138,7 +132,7 @@ export default function HomePage() {
       <section className="max-w-6xl mx-auto px-4 py-14">
         <div className="bg-gradient-to-r from-gray-900 to-gray-800 rounded-2xl p-8 md:p-12 text-white">
           <div className="max-w-2xl">
-            <p className="text-blue-400 font-semibold mb-2">🔧 自作PC完全ガイド</p>
+            <p className="pc-diy-label">🔧 自作PC完全ガイド</p>
             <h2 className="text-3xl font-bold mb-4">自分でPCを組む、という選択肢</h2>
             <p className="text-gray-300 mb-6">
               10万円の予算で、同じ値段の既製品より2倍の性能を出せることがある。
@@ -166,7 +160,7 @@ export default function HomePage() {
       <section className="max-w-6xl mx-auto px-4 py-14">
         <div className="flex items-center justify-between mb-6">
           <h2 className="text-2xl font-bold">PC選びガイド</h2>
-          <Link href="/knowledge/pc-osusume-2026" className="text-sm text-blue-600 hover:underline">すべて見る →</Link>
+          <Link href="/knowledge/pc-osusume-2026" className="pc-link">すべて見る →</Link>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
           {[
@@ -180,9 +174,9 @@ export default function HomePage() {
             <Link
               key={href}
               href={href}
-              className="bg-white border border-gray-200 rounded-xl p-5 hover:border-blue-400 hover:shadow-sm transition-all"
+              className="bg-white border border-gray-200 rounded-xl p-5 hover:shadow-sm transition-all pc-card-hover"
             >
-              {badge && <span className="inline-block text-xs bg-blue-100 text-blue-700 px-2 py-0.5 rounded-full mb-2">{badge}</span>}
+              {badge && <span className="pc-badge">{badge}</span>}
               <h3 className="font-bold text-gray-900 text-sm mb-2 leading-snug">{title}</h3>
               <p className="text-xs text-gray-500 leading-relaxed">{desc}</p>
             </Link>
@@ -191,7 +185,7 @@ export default function HomePage() {
       </section>
 
       {/* Features */}
-      <section className="bg-gray-50 py-14 px-4">
+      <section className="pc-section-tint py-14 px-4">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-bold text-center mb-10">PickPCの特徴</h2>
           <div className="grid md:grid-cols-3 gap-6">
@@ -216,7 +210,7 @@ export default function HomePage() {
         <div className="grid md:grid-cols-2 gap-4">
           <Link
             href="/parts/gpu"
-            className="bg-white border border-gray-200 rounded-xl p-6 hover:border-blue-400 hover:shadow-sm transition-all"
+            className="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-sm transition-all pc-card-hover"
           >
             <p className="text-2xl mb-2">⚙️</p>
             <h3 className="font-bold text-gray-900 mb-1">GPU比較</h3>
@@ -224,7 +218,7 @@ export default function HomePage() {
           </Link>
           <Link
             href="/parts/cpu"
-            className="bg-white border border-gray-200 rounded-xl p-6 hover:border-blue-400 hover:shadow-sm transition-all"
+            className="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-sm transition-all pc-card-hover"
           >
             <p className="text-2xl mb-2">🔲</p>
             <h3 className="font-bold text-gray-900 mb-1">CPU比較</h3>
